@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-GLOBAL-ANIM-SPRINT-20261028-01
+- Concluído em: 2026-10-28 14:46 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: sistema de animação global e sprint implementado para todos os jogadores via arquitetura cliente-servidor; caminhada utiliza SimpleWalk (do Rig/Baseplate) e corrida no Shift utiliza a animação BestRunAnimR6 (Run1 [by M0rsDev]), replicando via Animator do personagem e RemoteEvent SprintRemote validado no servidor para visibilidade entre múltiplos jogadores.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: ReplicatedStorage.GameAnimations (SimpleWalk, BestRun, WalkKS, RunKS), ReplicatedStorage.SprintRemote (RemoteEvent), ServerScriptService.GlobalAnimationServer (Script), StarterPlayer.StarterCharacterScripts.MovementAnimationController (LocalScript).
+- Interfaces alteradas: ReplicatedStorage.SprintRemote (RemoteEvent com parâmetro boolean isSprinting).
+- Testes realizados e resultados: registro de BestRunAnimR6 e SimpleWalk validados via KeyframeSequenceProvider gerando IDs de runtime válidos; arquitetura cliente-servidor criada e scripts antigos limpos sem erros.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-APPLY-WALKANIM-20261028-01
 - Concluído em: 2026-10-28 14:41 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
