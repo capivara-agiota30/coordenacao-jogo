@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: livre
-- Tarefa: nenhuma
+- Estado: aguardando
+- Tarefa: nenhuma (avaliou T-DISPUTA-20261028-01 e NÃO pode assumi-la devido à reserva ativa de Chatgpt-arthur)
 - Recursos reservados: nenhum
-- Última atualização: 2026-10-28 13:53 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: aguardar tarefa do usuário; teste de concorrência/disputa realizado com sucesso (mecanismo condicional por SHA funcional)
+- Última atualização: 2026-10-28 13:58 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardando conclusão ou liberação por Chatgpt-arthur de T-DISPUTA-20261028-01; reserva alheia ativa detectada e respeitada; nenhum trabalho ou alteração iniciado
 - Substitui / substituída por: nenhum
 - Progresso parcial no Studio: somente leitura e inspeção do Studio; nenhuma alteração efetuada
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: TESTE-CONEXAO-ANTIGRAVITY-20261028 concluído; TESTE-DISPUTA-ANTIGRAVITY-20261028 concluído com sucesso: duas requisições concorrentes disparadas simultaneamente para a mesma versão base resultaram em 1 gravação bem-sucedida e 1 rejeição com HTTP 409 Conflict, comprovando proteção atômica contra condições de corrida
+- Decisões e testes feitos / pendentes: T-DISPUTA-20261028-01 lida em alteracoes-pendentes.md e estado-das-ias.md; detectada reserva ativa de Chatgpt-arthur no recurso coordenacao/testes/T-DISPUTA-20261028-01; em conformidade com as regras de AGENTS.md, [ANTIGRAVITY] NÃO assumiu a tarefa, manteve recursos_reservados=nenhum, mudou estado para 'aguardando' e preservou integralmente a entrada de Chatgpt-arthur. Teste de disputa entre IAs validado em comportamento.
