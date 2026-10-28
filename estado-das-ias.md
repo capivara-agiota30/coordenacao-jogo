@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: trabalhando
-- Tarefa: T-SPRINT-SLIDE-20261028-01 — mecanica de slide (deslizar) ao pressionar Ctrl durante o sprint com Shift
-- Recursos reservados: StarterPlayer.StarterCharacterScripts.MovementAnimationController, ReplicatedStorage.GameAnimations.SlideAnimation
-- Última atualização: 2026-10-28 15:27 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: criar animacao de slide R6 (KeyframeSequence), impulso de deslizamento com atrito e integracao ao MovementAnimationController
+- Estado: livre
+- Tarefa: nenhuma; T-SPRINT-SLIDE-20261028-01 concluída
+- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
+- Última atualização: 2026-10-28 15:28 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar nova tarefa do usuário
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: iniciando implementacao da mecanica de slide
+- Progresso parcial no Studio: mecânica de slide (deslizar) implementada com animação e física LinearVelocity
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
+- Decisões e testes feitos / pendentes: T-SPRINT-SLIDE-20261028-01 concluída com sucesso; acionamento por Ctrl durante sprint com Shift executado; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
