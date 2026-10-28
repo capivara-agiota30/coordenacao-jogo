@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-JUMP-ANIM-20261028-01
+- Concluído em: 2026-10-28 14:50 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: animações de pulo e queda (Jump e Fall do Rig R6) registradas e integradas harmoniosamente ao ciclo de locomoção (caminhada SimpleWalk e corrida BestRunAnimR6), com interrupção instantânea de passos ao saltar e retorno suave ao aterrissar, com sincronização global para todos os jogadores.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: ReplicatedStorage.GameAnimations.Jump, ReplicatedStorage.GameAnimations.Fall, ServerScriptService.GlobalAnimationServer, StarterPlayer.StarterCharacterScripts.MovementAnimationController.
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: KeyframeSequences de Jump e Fall registradas com IDs válidos; lógica de troca de estados StateChanged (Jumping, Freefall, Landed) validada no script de cliente e servidor.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-GLOBAL-ANIM-SPRINT-20261028-01
 - Concluído em: 2026-10-28 14:46 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
