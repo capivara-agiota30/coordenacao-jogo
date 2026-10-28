@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-SPRINT-REALANIM-20261028-01
+- Concluído em: 2026-10-28 14:14 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: animação do sprint ajustada para o ciclo de corrida atlética real (RunFast, rbxassetid://913376220 no R15 e rbxassetid://180426354 no R6), com prioridade Action sobrepondo o andar padrão perfeitamente, passos e braços dobrados em ritmo de velocidade (playbackSpeed 1.35x), e remoção completa das oscilações procedurais no RootJoint.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: StarterPlayer.StarterPlayerScripts.SprintController.
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: execução Luau concluída e validada no DataModel com injeção do novo código de animação atlética.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-SPRINT-ANIMATION-20261028-01
 - Concluído em: 2026-10-28 14:09 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
