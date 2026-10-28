@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: trabalhando
-- Tarefa: T-SPRINT-CUSTOMANIM-20261028-01 - criar animacao de corrida procedural com KeyframeSequence bonita e atletica
-- Recursos reservados: StarterPlayer.StarterPlayerScripts.SprintController
-- Ultima atualizacao: 2026-10-28 14:16 -03:00 (America/Sao_Paulo)
-- Proximo passo / bloqueio: criar KeyframeSequence com poses de corrida atletica via RegisterKeyframeSequence e integrar ao SprintController
+- Estado: livre
+- Tarefa: nenhuma; T-SPRINT-CUSTOMANIM-20261028-01 concluida
+- Recursos reservados: nenhum
+- Ultima atualizacao: 2026-10-28 14:18 -03:00 (America/Sao_Paulo)
+- Proximo passo / bloqueio: aguardar nova tarefa do usuario
 - Substitui / substituida por: nenhum
-- Progresso parcial no Studio: iniciando
-- Studio / experiencia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisoes e testes feitos / pendentes: reserva condicional adquirida
+- Progresso parcial no Studio: SprintController com animacao customizada por KeyframeSequence
+- Studio / experiencia: projeto cyberpunk (placeId: 128162258382604)
+- Decisoes e testes feitos / pendentes: animacao atletica customizada criada e registrada com sucesso
