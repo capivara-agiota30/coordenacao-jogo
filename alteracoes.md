@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-APPLY-WALKANIM-20261028-01
+- Concluído em: 2026-10-28 14:41 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: aplicada a animação de caminhada ('Walk' salva em Workspace.Rig.Humanoid.AnimSaves / Workspace.Baseplate.WalkAnimation) para todos os jogadores do jogo via StarterPlayer.StarterCharacterScripts.WalkAnimationHandler e ReplicatedStorage.GameAnimations, substituindo a animação padrão do Animate e provendo fallback autônomo com o Animator.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: ReplicatedStorage.GameAnimations.SimpleWalk (Animation), ReplicatedStorage.GameAnimations.WalkKeyframeSequence (KeyframeSequence), StarterPlayer.StarterCharacterScripts.WalkAnimationHandler (LocalScript).
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: registro de KeyframeSequence via KeyframeSequenceProvider concluído gerando o ID de runtime 2a87dd2fede5a0d52f6deb4910b29d2f; injeção do LocalScript em StarterCharacterScripts validada no DataModel.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-SPRINT-CUSTOMANIM-20261028-01
 - Concluido em: 2026-10-28 14:18 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
