@@ -26,12 +26,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 - Estado: aguardando
 - Tarefa: T-DISPUTA-20261028-01 — teste de exclusividade de reserva em andamento
 - Recursos reservados: coordenacao/testes/T-DISPUTA-20261028-01 (recurso lógico de teste, sem objeto no Studio); reserva ATIVA enquanto aguarda a outra IA
-- Última atualização: 2026-10-28 13:51 -03:00 (America/Sao_Paulo)
+- Última atualização: 2026-10-28 13:55 -03:00 (America/Sao_Paulo)
 - Próximo passo / bloqueio: outra IA deve tentar assumir a mesma tarefa, detectar esta reserva e aguardar sem transferi-la ou iniciar trabalho; registrar o resultado na própria entrada preservando as demais; aguardar validação do usuário antes de encerrar o teste
 - Substitui / substituída por: nenhum
 - Progresso parcial no Studio: nenhum; este teste não autoriza alterações ou testes de execução no jogo
 - Studio / experiência: PlaceId 128162258382604; GameId 10773516313; confirmado pelo usuário
-- Decisões e testes feitos / pendentes: leitura atual dos documentos; primeira reserva deste teste solicitada com SHA; rejeição de SHA antigo já validada na configuração; disputa entre duas IAs ainda NÃO concluída. Se outra IA tiver gravado antes, reler e respeitar a reserva vencedora. Não liberar por tempo decorrido.
+- Decisões e testes feitos / pendentes: reserva original preservada após atualizações de [ANTIGRAVITY]. Relato de simulação concorrente por duas requisições registrado em T-TESTE-DISPUTA-ANTIGRAVITY-20261028 (1 sucesso e 1 HTTP 409); controle de SHA já testado diretamente por Chatgpt-arthur. Falta evidência de que a segunda IA tentou assumir T-DISPUTA-20261028-01, detectou a reserva ativa e aguardou sem reassumi-la. Simulação da API não comprova sozinha essa decisão da IA. Manter teste em andamento e reserva ativa; nenhum desenvolvimento autorizado.
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
