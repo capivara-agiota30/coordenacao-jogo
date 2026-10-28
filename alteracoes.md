@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-HIGHJUMP-ROLL-20261028-01
+- Concluído em: 2026-10-28 14:58 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: altura de pulo aumentada (JumpPower de 50 para 65) e implementada mecânica refinada de cambalhota de aterrissagem (Landing Roll) com rotação frontal de 360 graus, impulso de velocidade para frente ao tocar o chão em movimento e transição suave para corrida/caminhada. Sincronizado para todos os jogadores no servidor.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: ReplicatedStorage.GameAnimations.LandingRoll (Animation), ReplicatedStorage.GameAnimations.RollKS (KeyframeSequence), ServerScriptService.GlobalAnimationServer, StarterPlayer.StarterCharacterScripts.MovementAnimationController.
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: registro de KeyframeSequence de LandingRoll via KeyframeSequenceProvider concluído gerando ID de runtime válido; JumpPower configurado para 65 no servidor e acionamento por StateChanged.Landed com momentum linear validado.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-JUMP-ANIM-20261028-01
 - Concluído em: 2026-10-28 14:50 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
