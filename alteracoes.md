@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-SPRINT-CUSTOMANIM-20261028-01
+- Concluido em: 2026-10-28 14:18 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: criada animacao de corrida atletica personalizada usando KeyframeSequence construida em runtime com 5 keyframes (contato direito, passagem, contato esquerdo, passagem, loop). Corpo inclinado 18 graus para frente, bracos bombeando alternados em arco de 95 graus, pernas em passada larga de 85 graus. Registrada via KeyframeSequenceProvider e tocada como AnimationTrack com prioridade Action a 1.3x. Sem dependencia de assets externos.
+- Studio / experiencia: projeto cyberpunk (placeId: 128162258382604)
+- Scripts e objetos afetados: StarterPlayer.StarterPlayerScripts.SprintController
+- Interfaces alteradas: nenhuma
+- Testes realizados e resultados: KeyframeSequence registrada com sucesso; script atualizado e validado no DataModel
+- Impacto nas outras tarefas: nenhuma
+
 ## T-SPRINT-REALANIM-20261028-01
 - Concluído em: 2026-10-28 14:14 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
