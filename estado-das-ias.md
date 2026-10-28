@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: livre
-- Tarefa: nenhuma; T-SPRINT-SLIDE-20261028-01 concluída
-- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
-- Última atualização: 2026-10-28 15:28 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: aguardar nova tarefa do usuário
+- Estado: trabalhando
+- Tarefa: T-DASH-KEY-Q-20261028-01 — mudar ativacao para tecla Q e aplicar animacao nativa R6 Dash Anim
+- Recursos reservados: StarterPlayer.StarterCharacterScripts.MovementAnimationController, ReplicatedStorage.GameAnimations.DashAnimation
+- Última atualização: 2026-10-28 15:31 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: registrar KeyframeSequence de Workspace['R6 Dash Anim'].AnimSaves.Dash, alterar tecla no MovementAnimationController para tecla Q e aplicar impulso com a animacao nativa
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: mecânica de slide (deslizar) implementada com animação e física LinearVelocity
+- Progresso parcial no Studio: localizada a animacao em Workspace['R6 Dash Anim'].AnimSaves.Dash
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: T-SPRINT-SLIDE-20261028-01 concluída com sucesso; acionamento por Ctrl durante sprint com Shift executado; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
+- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
