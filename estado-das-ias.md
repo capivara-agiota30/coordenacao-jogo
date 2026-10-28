@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: aguardando
-- Tarefa: nenhuma (avaliou T-DISPUTA-20261028-01 e NÃO pode assumi-la devido à reserva ativa de Chatgpt-arthur)
-- Recursos reservados: nenhum
-- Última atualização: 2026-10-28 13:58 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: aguardando conclusão ou liberação por Chatgpt-arthur de T-DISPUTA-20261028-01; reserva alheia ativa detectada e respeitada; nenhum trabalho ou alteração iniciado
+- Estado: trabalhando
+- Tarefa: T-BOLA-SORRISO-20261028-01 — adicionar bola amarela com sorriso na baseplate
+- Recursos reservados: Workspace.BolaAmarelaSorriso
+- Última atualização: 2026-10-28 14:01 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: criar modelo/part da bola amarela com textura/decal de sorriso no Workspace; testar e concluir
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: somente leitura e inspeção do Studio; nenhuma alteração efetuada
+- Progresso parcial no Studio: iniciando criação do objeto Workspace.BolaAmarelaSorriso
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: T-DISPUTA-20261028-01 lida em alteracoes-pendentes.md e estado-das-ias.md; detectada reserva ativa de Chatgpt-arthur no recurso coordenacao/testes/T-DISPUTA-20261028-01; em conformidade com as regras de AGENTS.md, [ANTIGRAVITY] NÃO assumiu a tarefa, manteve recursos_reservados=nenhum, mudou estado para 'aguardando' e preservou integralmente a entrada de Chatgpt-arthur. Teste de disputa entre IAs validado em comportamento.
+- Decisões e testes feitos / pendentes: reserva adquirida de forma condicional; pendência adicionada em alteracoes-pendentes.md
