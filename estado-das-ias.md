@@ -32,3 +32,15 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 - Progresso parcial no Studio: somente leitura dos identificadores; nenhuma alteração
 - Studio / experiência: Local de Capivara_agiota30: 10282026_1; PlaceId 128162258382604; GameId 10773516313; confirmado pelo usuário
 - Decisões e testes feitos / pendentes: TESTE-CONEXAO-Chatgpt-arthur-20261028: leitura e escrita autenticadas confirmadas em main; registro inicial por SHA confirmado e relido; tentativa com SHA antigo rejeitada com HTTP 409 CONFLICT; instruções locais em C:/Users/Arthur/Documents/ChatGPT/cybepunk v2 roblox/AGENTS.md; histórico registrado em alteracoes.md; teste de disputa entre duas IAs ainda não realizado, usar divisão fixa de sistemas até validação
+
+## [ANTIGRAVITY]
+- Nome fixo: [ANTIGRAVITY]
+- Estado: livre
+- Tarefa: nenhuma
+- Recursos reservados: nenhum
+- Última atualização: 2026-10-28 13:50 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar tarefa do usuário; antes de edição simultânea, realizar teste de disputa entre duas IAs ou usar divisão fixa de sistemas
+- Substitui / substituída por: nenhum
+- Progresso parcial no Studio: somente leitura e inspeção do Studio; nenhuma alteração efetuada
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Decisões e testes feitos / pendentes: TESTE-CONEXAO-ANTIGRAVITY-20261028: leitura e escrita autenticadas via GitHub CLI; MCP nativo Roblox Studio verificado via tool list_roblox_studios; teste condicional com SHA realizado; instruções locais persistentes em AGENTS.md
