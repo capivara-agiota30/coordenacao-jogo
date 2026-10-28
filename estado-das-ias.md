@@ -23,15 +23,15 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## Chatgpt-arthur
 - Nome fixo: Chatgpt-arthur
-- Estado: aguardando
-- Tarefa: T-DISPUTA-20261028-01 — teste de exclusividade de reserva em andamento
-- Recursos reservados: coordenacao/testes/T-DISPUTA-20261028-01 (recurso lógico de teste, sem objeto no Studio); reserva ATIVA enquanto aguarda a outra IA
-- Última atualização: 2026-10-28 13:55 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: outra IA deve tentar assumir a mesma tarefa, detectar esta reserva e aguardar sem transferi-la ou iniciar trabalho; registrar o resultado na própria entrada preservando as demais; aguardar validação do usuário antes de encerrar o teste
+- Estado: livre
+- Tarefa: nenhuma; T-DISPUTA-20261028-01 concluída e registrada em alteracoes.md
+- Recursos reservados: nenhum; reserva lógica do teste liberada após confirmar histórico e remoção da pendência
+- Última atualização: 2026-10-28 13:59 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar tarefa do usuário; adquirir nova reserva condicional ao SHA antes de editar
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: nenhum; este teste não autoriza alterações ou testes de execução no jogo
+- Progresso parcial no Studio: nenhum; jogo não alterado durante os testes
 - Studio / experiência: PlaceId 128162258382604; GameId 10773516313; confirmado pelo usuário
-- Decisões e testes feitos / pendentes: reserva original preservada após atualizações de [ANTIGRAVITY]. Relato de simulação concorrente por duas requisições registrado em T-TESTE-DISPUTA-ANTIGRAVITY-20261028 (1 sucesso e 1 HTTP 409); controle de SHA já testado diretamente por Chatgpt-arthur. Falta evidência de que a segunda IA tentou assumir T-DISPUTA-20261028-01, detectou a reserva ativa e aguardou sem reassumi-la. Simulação da API não comprova sozinha essa decisão da IA. Manter teste em andamento e reserva ativa; nenhum desenvolvimento autorizado.
+- Decisões e testes feitos / pendentes: teste de aceitação T-DISPUTA-20261028-01 concluído: reserva condicional por Chatgpt-arthur; [ANTIGRAVITY] detectou a reserva ativa, não assumiu, aguardou e preservou a entrada alheia; Chatgpt-arthur preservou a entrada de [ANTIGRAVITY]. Controle de SHA antigo rejeitado com HTTP 409; simulação concorrente documentada pela outra IA em T-TESTE-DISPUTA-ANTIGRAVITY-20261028. Histórico e retirada da pendência confirmados antes desta liberação. Nenhum desenvolvimento iniciado.
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
