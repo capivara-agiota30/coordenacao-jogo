@@ -1,4 +1,4 @@
-# Instruções para Gemini CLI
+# Instruções para Antigravity
 
 Repositório de coordenação: https://github.com/capivara-agiota30/coordenacao-jogo
 Branch compartilhada: main.
@@ -22,4 +22,4 @@ Siga o procedimento de transferência em AGENTS.md: após instrução do usuári
 Teste o resultado, registre somente conclusões reais em alteracoes.md, retire a tarefa das pendências e libere a reserva por último, conforme AGENTS.md. Pedidos registrados não iniciam outra IA automaticamente.
 
 ## Ativação local
-Este arquivo no GitHub, sozinho, não garante carregamento automático. Na configuração do Gemini CLI, disponibilize estas instruções como contexto na pasta de trabalho ou forneça-as explicitamente no início da conversa. Verifique o carregamento antes do teste de reservas entre IAs.
+Este arquivo no GitHub, sozinho, não garante carregamento automático. Na configuração do Antigravity, disponibilize estas instruções como contexto na pasta de trabalho ou forneça-as explicitamente no início da conversa. Verifique o carregamento antes do teste de reservas entre IAs.
