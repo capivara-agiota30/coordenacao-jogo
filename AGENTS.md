@@ -37,3 +37,14 @@ No Codex, coloque estas instruções em AGENTS.md na pasta do projeto aberta no 
 
 ## Teste de aceitação
 Antes de trabalhar simultaneamente, tente reservar a mesma tarefa com as duas IAs. Apenas uma deve começar; a outra deve detectar o conflito e aguardar. Confirme também que ambas preservam entradas alheias ao atualizar documentos. Se isso não for demonstrado, use divisão fixa de sistemas.
+
+## Substituição de IAs e continuidade
+Qualquer IA pode ser substituída por outra ferramenta, modelo ou conversa, inclusive por esgotamento do plano. Não dependa de memória da conversa: registre progresso nos marcos relevantes enquanto trabalha, pois uma interrupção pode impedir uma mensagem final.
+
+Antes de uma troca planejada, registre em estado-das-ias.md: ID da tarefa, trabalho parcial aplicado no Studio, caminhos afetados, decisões, testes feitos e pendentes, bloqueios e próximo passo. Mantenha a tarefa em andamento; não registre como concluído o que está incompleto.
+
+A IA substituta usa o nome informado pelo usuário no prompt, registra quem está substituindo, lê os três documentos atuais e confere no Studio o estado real dos recursos envolvidos. Se a IA anterior parou sem registrar progresso, reconstrua o contexto a partir do Studio e explicite as incertezas.
+
+A transferência exige instrução do usuário e confirmação de que a instância anterior não continuará editando. Após essa confirmação, transfira a reserva da IA anterior para a substituta numa única atualização de estado-das-ias.md condicionada à versão lida, preservando o ID da tarefa e as reservas alheias; depois atualize o responsável nas pendências. Nunca deixe as duas como donas ativas dos mesmos recursos. Registre a anterior como substituída e a nova como responsável. Inatividade ou limite de plano presumido não transferem reservas automaticamente.
+
+Se a IA anterior voltar, deve reler o estado e não retomar recursos já transferidos. Os registros concluídos preservam os autores originais; a substituta não assume autoria do trabalho anterior. Uma substituição não cancela tarefas nem inicia uma IA automaticamente.
