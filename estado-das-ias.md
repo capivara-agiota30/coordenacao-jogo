@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: livre
-- Tarefa: nenhuma; T-SPRINT-CUSTOMANIM-20261028-01 concluida
-- Recursos reservados: nenhum
-- Ultima atualizacao: 2026-10-28 14:18 -03:00 (America/Sao_Paulo)
-- Proximo passo / bloqueio: aguardar nova tarefa do usuario
-- Substitui / substituida por: nenhum
-- Progresso parcial no Studio: SprintController com animacao customizada por KeyframeSequence
-- Studio / experiencia: projeto cyberpunk (placeId: 128162258382604)
-- Decisoes e testes feitos / pendentes: animacao atletica customizada criada e registrada com sucesso
+- Estado: trabalhando
+- Tarefa: T-APPLY-WALKANIM-20261028-01 — aplicar walk animation do Studio em todos os players
+- Recursos reservados: StarterPlayer.StarterCharacterScripts.WalkAnimationHandler
+- Última atualização: 2026-10-28 14:40 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: configurar script em StarterCharacterScripts carregando a KeyframeSequence de caminhada nos personagens; testar e finalizar
+- Substitui / substituída por: nenhum
+- Progresso parcial no Studio: identificada KeyframeSequence Walk do Rig e WalkAnimation na baseplate; preparando aplicacao
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
