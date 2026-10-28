@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-DOUBLE-JUMP-HEIGHT-20261028-01
+- Concluído em: 2026-10-28 15:06 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: altura de pulo dobrada de 7.2 studs para 14.4 studs (JumpHeight = 14.4) em StarterPlayer.CharacterJumpHeight e em cada Humanoid no GlobalAnimationServer, mantendo a animação nativa de pulo R6 do Studio e sem cambalhota.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: StarterPlayer.CharacterJumpHeight, ServerScriptService.GlobalAnimationServer.
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: verificado que CharacterJumpHeight = 14.4 e UseJumpPower = false foram aplicados para garantir exatamente o dobro da elevação física vertical ao saltar.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-REVERT-ROLL-APPLY-JUMP-20261028-01
 - Concluído em: 2026-10-28 15:04 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
