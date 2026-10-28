@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-SPRINT-SLIDE-20261028-01
+- Concluído em: 2026-10-28 15:28 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: implementada mecânica de slide (deslizar) ao pressionar Ctrl (esquerdo/direito ou tecla C) enquanto corre segurando Shift; criada pose/animação estilizada de slide R6 registrada via KeyframeSequenceProvider, impulso físico por LinearVelocity (velocidade inicial de 48 studs/s com desaceleração e fricção ao longo de 0.65s) e transição de FOV dinâmico (86 graus), retornando suavemente à corrida.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: ReplicatedStorage.GameAnimations.Slide (Animation), ReplicatedStorage.GameAnimations.SlideKS (KeyframeSequence), StarterPlayer.StarterCharacterScripts.MovementAnimationController.
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: registro de SlideAnimR6 validado no DataModel gerando ID de runtime válido; acionamento condicional sob Shift+Ctrl com cancelamento de faixas de solo e física de fricção validados.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-DOUBLE-JUMP-HEIGHT-20261028-01
 - Concluído em: 2026-10-28 15:06 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
