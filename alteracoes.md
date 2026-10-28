@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-DASH-KEY-Q-20261028-01
+- Concluído em: 2026-10-28 15:32 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: mecânica de deslocamento rápido atualizada: removido gatilho de Ctrl+Shift e substituído pelo acionamento direto na tecla Q; aplicada a animação nativa 'Dash' do modelo 'R6 Dash Anim' presente no Studio (86 keyframes), com impulso de 58 studs/s via LinearVelocity por 0.45s, efeito dinâmico de FOV e cooldown balanceado de 0.6s.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: ReplicatedStorage.GameAnimations.Dash (Animation), ReplicatedStorage.GameAnimations.DashKS (KeyframeSequence), StarterPlayer.StarterCharacterScripts.MovementAnimationController.
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: KeyframeSequence Dash extraída de Workspace['R6 Dash Anim'].AnimSaves.Dash registrada via KeyframeSequenceProvider; acionamento na tecla Q validado sem necessidade de segurar Shift.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-SPRINT-SLIDE-20261028-01
 - Concluído em: 2026-10-28 15:28 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
