@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: trabalhando
-- Tarefa: T-GLOBAL-ANIM-SPRINT-20261028-01 — sincronizacao global de walk e sprint com BestRunAnimR6
-- Recursos reservados: StarterPlayer.StarterCharacterScripts.AnimationManager, ServerScriptService.AnimationSyncServer, ReplicatedStorage.GameAnimations
-- Última atualização: 2026-10-28 14:46 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: criar sistema com replicacao de animacoes via servidor/cliente com Animator garantindo visibilidade para todos os players (incluindo amigos no Team Create / multiplayer) e aplicar BestRunAnimR6 no Shift
+- Estado: livre
+- Tarefa: nenhuma; T-GLOBAL-ANIM-SPRINT-20261028-01 concluída
+- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
+- Última atualização: 2026-10-28 14:47 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar nova tarefa do usuário
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: localizadas as animacoes Run1, Run2, Run3 em Workspace.BestRunAnimR6.R6.AnimSaves
+- Progresso parcial no Studio: arquitetura completa de replicacao global de walk e BestRunAnimR6 configurada
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
+- Decisões e testes feitos / pendentes: T-GLOBAL-ANIM-SPRINT-20261028-01 concluída com sucesso; walk global e BestRunAnimR6 replicados para todos os players no multiplayer; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
