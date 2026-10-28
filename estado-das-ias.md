@@ -38,9 +38,9 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 - Estado: livre
 - Tarefa: nenhuma
 - Recursos reservados: nenhum
-- Última atualização: 2026-10-28 13:50 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: aguardar tarefa do usuário; antes de edição simultânea, realizar teste de disputa entre duas IAs ou usar divisão fixa de sistemas
+- Última atualização: 2026-10-28 13:53 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar tarefa do usuário; teste de concorrência/disputa realizado com sucesso (mecanismo condicional por SHA funcional)
 - Substitui / substituída por: nenhum
 - Progresso parcial no Studio: somente leitura e inspeção do Studio; nenhuma alteração efetuada
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: TESTE-CONEXAO-ANTIGRAVITY-20261028: leitura e escrita autenticadas via GitHub CLI; MCP nativo Roblox Studio verificado via tool list_roblox_studios; teste condicional com SHA realizado; instruções locais persistentes em AGENTS.md
+- Decisões e testes feitos / pendentes: TESTE-CONEXAO-ANTIGRAVITY-20261028 concluído; TESTE-DISPUTA-ANTIGRAVITY-20261028 concluído com sucesso: duas requisições concorrentes disparadas simultaneamente para a mesma versão base resultaram em 1 gravação bem-sucedida e 1 rejeição com HTTP 409 Conflict, comprovando proteção atômica contra condições de corrida
