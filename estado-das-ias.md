@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: trabalhando
-- Tarefa: T-SPRINT-ANIMATION-20261028-01 — aprimorar animação procedural e visual de corrida estilizada
-- Recursos reservados: StarterPlayer.StarterPlayerScripts.SprintController
-- Última atualização: 2026-10-28 14:08 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: atualizar SprintController com animação procedural de inclinação do corpo (torso lean), bobbing de passos na câmera e rastro/partículas de velocidade; testar e finalizar
+- Estado: livre
+- Tarefa: nenhuma; T-SPRINT-ANIMATION-20261028-01 concluída
+- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
+- Última atualização: 2026-10-28 14:09 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar nova tarefa do usuário
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: iniciando atualização de StarterPlayer.StarterPlayerScripts.SprintController
+- Progresso parcial no Studio: StarterPlayer.StarterPlayerScripts.SprintController atualizado com animação física e procedural
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
+- Decisões e testes feitos / pendentes: T-SPRINT-ANIMATION-20261028-01 concluída; script testado no DataModel; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
