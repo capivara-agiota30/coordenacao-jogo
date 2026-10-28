@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-REVERT-ROLL-APPLY-JUMP-20261028-01
+- Concluído em: 2026-10-28 15:04 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: removidos pulo alto e cambalhota na aterrissagem; JumpPower restaurado ao padrão de 50; aplicada a animação de pulo nativa do R6 (Workspace.Rig.Humanoid.AnimSaves.Jump) com transição limpa para corrida e caminhada.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: ReplicatedStorage.GameAnimations.Jump (Animation), ServerScriptService.GlobalAnimationServer, StarterPlayer.StarterCharacterScripts.MovementAnimationController.
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: LandingRoll removido de ReplicatedStorage e dos scripts; JumpPower redefinido para 50; execução de Jump anim do Rig validada.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-HIGHJUMP-ROLL-20261028-01
 - Concluído em: 2026-10-28 14:58 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
