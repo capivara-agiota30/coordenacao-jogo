@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-SPRINT-SYSTEM-20261028-01
+- Concluído em: 2026-10-28 14:06 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: sistema de corrida implementado via LocalScript ao segurar a tecla Shift (esquerda ou direita), aumentando WalkSpeed de 16 para 26, transição dinâmica suave de FOV (70 para 80 com TweenService) e suporte a animação de corrida (AnimationPriority.Movement).
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: StarterPlayer.StarterPlayerScripts.SprintController (LocalScript), StarterPlayer.StarterPlayerScripts.SprintController.SprintAnim (Animation).
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: verificado via search_game_tree que StarterPlayer.StarterPlayerScripts.SprintController e a animação SprintAnim foram criados e populados com código Luau com sucesso.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-BOLA-SORRISO-20261028-01
 - Concluído em: 2026-10-28 14:02 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
