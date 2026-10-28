@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-SPRINT-ANIMATION-20261028-01
+- Concluído em: 2026-10-28 14:09 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: animação e física de corrida enriquecidas com animação procedural dinâmica de tronco (inclinação para frente de -14 graus via RootJoint, bounce vertical de passos e leve oscilação lateral de corrida sincronizada com velocidade no chão), sem depender de aprovações de ID de assets externos e compatível com R6 e R15.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: StarterPlayer.StarterPlayerScripts.SprintController.
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: execução Luau validada no DataModel do Studio com injeção de lógica procedural no SprintController.
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-SPRINT-SYSTEM-20261028-01
 - Concluído em: 2026-10-28 14:06 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
