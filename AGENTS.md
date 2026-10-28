@@ -1,5 +1,10 @@
 # Instruções compartilhadas para as IAs
 
+## Contexto do projeto
+Estamos desenvolvendo em equipe um jogo no Roblox com temática cyberpunk, combinando trabalho manual dos desenvolvedores e ajuda de múltiplas IAs. O código, mapa e demais elementos do jogo são editados no Roblox Studio, com colaboração pelo Team Create. Este repositório serve para coordenação entre os participantes.
+
+A temática cyberpunk é uma direção geral. Mecânicas, história, referências visuais e sistemas específicos ainda não estão definidos neste documento; não invente requisitos nem presuma que o jogo adapta uma franquia existente. Consulte as decisões registradas e as instruções dos desenvolvedores.
+
 ## Configuração a preencher
 - Repositório e branch compartilhada: https://github.com/capivara-agiota30/coordenacao-jogo — main
 - Nome fixo desta IA: <nome>
