@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: trabalhando
-- Tarefa: T-APPLY-WALKANIM-20261028-01 — aplicar walk animation do Studio em todos os players
-- Recursos reservados: StarterPlayer.StarterCharacterScripts.WalkAnimationHandler
-- Última atualização: 2026-10-28 14:40 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: configurar script em StarterCharacterScripts carregando a KeyframeSequence de caminhada nos personagens; testar e finalizar
+- Estado: livre
+- Tarefa: nenhuma; T-APPLY-WALKANIM-20261028-01 concluída
+- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
+- Última atualização: 2026-10-28 14:41 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar nova tarefa do usuário
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: identificada KeyframeSequence Walk do Rig e WalkAnimation na baseplate; preparando aplicacao
+- Progresso parcial no Studio: StarterPlayer.StarterCharacterScripts.WalkAnimationHandler configurado
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
+- Decisões e testes feitos / pendentes: T-APPLY-WALKANIM-20261028-01 concluída com sucesso; walk animation do projeto aplicada em todos os players; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
