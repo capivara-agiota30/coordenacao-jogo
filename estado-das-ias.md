@@ -24,11 +24,11 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 ## Chatgpt-arthur
 - Nome fixo: Chatgpt-arthur
 - Estado: aguardando
-- Tarefa: configuração de conexões; nenhuma tarefa de desenvolvimento recebida
+- Tarefa: nenhuma; configuração concluída (T-CONEXAO-Chatgpt-arthur-20261028)
 - Recursos reservados: nenhum
-- Última atualização: 2026-10-28 13:29 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: concluir validação de escrita condicionada ao SHA; aguardar tarefa do usuário
+- Última atualização: 2026-10-28 13:32 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar tarefa do usuário; antes de edição simultânea, realizar teste de disputa entre duas IAs ou usar divisão fixa de sistemas
 - Substitui / substituída por: nenhum
 - Progresso parcial no Studio: somente leitura dos identificadores; nenhuma alteração
 - Studio / experiência: Local de Capivara_agiota30: 10282026_1; PlaceId 128162258382604; GameId 10773516313; confirmado pelo usuário
-- Decisões e testes feitos / pendentes: TESTE-CONEXAO-Chatgpt-arthur-20261028: registro inicial por SHA; leitura autenticada disponível; teste de rejeição de SHA antigo pendente; teste de disputa entre duas IAs ainda não realizado, usar divisão fixa de sistemas até validação
+- Decisões e testes feitos / pendentes: TESTE-CONEXAO-Chatgpt-arthur-20261028: leitura e escrita autenticadas confirmadas em main; registro inicial por SHA confirmado e relido; tentativa com SHA antigo rejeitada com HTTP 409 CONFLICT; instruções locais em C:/Users/Arthur/Documents/ChatGPT/cybepunk v2 roblox/AGENTS.md; histórico registrado em alteracoes.md; teste de disputa entre duas IAs ainda não realizado, usar divisão fixa de sistemas até validação
