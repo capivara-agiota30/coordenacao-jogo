@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: trabalhando
-- Tarefa: T-SPRINT-REALANIM-20261028-01 — aplicar animação de corrida estilosa (RunFast) por KeyframeAnimation / Animate script
-- Recursos reservados: StarterPlayer.StarterPlayerScripts.SprintController, StarterPlayer.StarterCharacterScripts.AnimateSprint
+- Estado: livre
+- Tarefa: nenhuma; T-SPRINT-REALANIM-20261028-01 concluída
+- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
 - Última atualização: 2026-10-28 14:14 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: substituir o balanço procedural anterior por animação oficial de corrida veloz (athletic/ninja run track) integrada ao Animator do personagem; testar e finalizar
+- Próximo passo / bloqueio: aguardar nova tarefa do usuário
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: iniciando ajuste de animações de corrida no Studio
+- Progresso parcial no Studio: SprintController atualizado com ciclo de animação RunFast oficial
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
+- Decisões e testes feitos / pendentes: T-SPRINT-REALANIM-20261028-01 concluída; animação oficial atlética aplicada sem deformações manuais no tronco; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
