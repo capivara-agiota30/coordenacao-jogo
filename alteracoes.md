@@ -2,6 +2,16 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-BOLA-SORRISO-20261028-01
+- Concluído em: 2026-10-28 14:02 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: adicionada esfera amarela ancorada com o clássico decal de sorriso na baseplate do jogo.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: Workspace.BolaAmarelaSorriso (Part esférica amarela 4x4x4, SmoothPlastic, Anchored), Workspace.BolaAmarelaSorriso.Sorriso (Decal com rbxasset://textures/face.png).
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: verificado via search_game_tree que o objeto Workspace.BolaAmarelaSorriso e o Decal Sorriso foram instanciados corretamente com propriedades esperadas na posição Vector3.new(0, 2, 0).
+- Impacto nas outras tarefas: nenhuma dependência.
+
 ## T-DISPUTA-20261028-01
 - ID: T-DISPUTA-20261028-01
 - Concluído em: 2026-10-28 13:58 -03:00 (America/Sao_Paulo)
