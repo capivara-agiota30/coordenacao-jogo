@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: trabalhando
-- Tarefa: T-JUMP-ANIM-20261028-01 — criar e integrar animacao de pulo estilizada baseada na corrida e caminhada R6
-- Recursos reservados: ReplicatedStorage.GameAnimations.JumpAnimation, StarterPlayer.StarterCharacterScripts.MovementAnimationController, ServerScriptService.GlobalAnimationServer
-- Última atualização: 2026-10-28 14:49 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: gerar KeyframeSequence de pulo dinamico R6 e integrar ao controller e ao servidor para replicacao global
+- Estado: livre
+- Tarefa: nenhuma; T-JUMP-ANIM-20261028-01 concluída
+- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
+- Última atualização: 2026-10-28 14:50 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar nova tarefa do usuário
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: iniciando construcao de KeyframeSequence de pulo
+- Progresso parcial no Studio: Jump e Fall perfeitamente integrados ao ciclo de movimento
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
+- Decisões e testes feitos / pendentes: T-JUMP-ANIM-20261028-01 concluída com sucesso; animações de pulo e queda integradas aos estados do Humanoid e replicadas globalmente; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
