@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: livre
-- Tarefa: nenhuma; T-GLOBAL-ANIM-SPRINT-20261028-01 concluída
-- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
-- Última atualização: 2026-10-28 14:47 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: aguardar nova tarefa do usuário
+- Estado: trabalhando
+- Tarefa: T-JUMP-ANIM-20261028-01 — criar e integrar animacao de pulo estilizada baseada na corrida e caminhada R6
+- Recursos reservados: ReplicatedStorage.GameAnimations.JumpAnimation, StarterPlayer.StarterCharacterScripts.MovementAnimationController, ServerScriptService.GlobalAnimationServer
+- Última atualização: 2026-10-28 14:49 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: gerar KeyframeSequence de pulo dinamico R6 e integrar ao controller e ao servidor para replicacao global
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: arquitetura completa de replicacao global de walk e BestRunAnimR6 configurada
+- Progresso parcial no Studio: iniciando construcao de KeyframeSequence de pulo
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: T-GLOBAL-ANIM-SPRINT-20261028-01 concluída com sucesso; walk global e BestRunAnimR6 replicados para todos os players no multiplayer; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
+- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
