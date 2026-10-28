@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: livre
-- Tarefa: nenhuma; T-BOLA-SORRISO-20261028-01 concluída
-- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
-- Última atualização: 2026-10-28 14:02 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: aguardar nova tarefa do usuário
+- Estado: trabalhando
+- Tarefa: T-SPRINT-SYSTEM-20261028-01 — sistema de sprint ao segurar shift com animação
+- Recursos reservados: StarterPlayer.StarterPlayerScripts.SprintController
+- Última atualização: 2026-10-28 14:05 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: implementar LocalScript SprintController em StarterPlayerScripts com animação e efeito de FOV; testar e finalizar
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: Workspace.BolaAmarelaSorriso criado com sucesso
+- Progresso parcial no Studio: iniciando criação de StarterPlayer.StarterPlayerScripts.SprintController
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: T-BOLA-SORRISO-20261028-01 concluída com sucesso; objeto verificado no DataModel; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
+- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
