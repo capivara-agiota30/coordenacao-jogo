@@ -12,3 +12,6 @@ Edite o jogo no Roblox Studio por MCP. O GitHub guarda apenas a coordenação; n
 Só comece a editar depois de obter a reserva em estado-das-ias.md com gravação condicionada à versão lida, como definido em AGENTS.md. Se os acessos necessários ou o controle de concorrência não estiverem disponíveis, informe o impedimento e não suponha que a reserva foi adquirida.
 
 A presença deste arquivo no GitHub não instala instruções no Claude Code de outro computador. Na configuração inicial, coloque este CLAUDE.md na pasta de trabalho que será aberta no Claude Code ou forneça estas instruções explicitamente na conversa. Não é necessário clonar o repositório para consultar e atualizar os documentos pela API.
+
+## Continuidade entre IAs
+Você pode substituir outra IA ou ser substituído quando o plano acabar, a ferramenta mudar ou a conversa for trocada. Siga a seção de substituição em AGENTS.md: registre progresso parcial durante o trabalho, preserve IDs e autoria e só transfira reservas após instrução do usuário e confirmação de que a instância anterior parou. Confira o estado real no Studio antes de retomar. Seu nome será definido no prompt de configuração.
