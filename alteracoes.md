@@ -2,6 +2,18 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-DISPUTA-20261028-01
+- ID: T-DISPUTA-20261028-01
+- Concluído em: 2026-10-28 13:58 -03:00 (America/Sao_Paulo)
+- IA / pessoa: Chatgpt-arthur e [ANTIGRAVITY], preservadas as autorias individuais
+- Resumo: teste de aceitação de reserva concluído; Chatgpt-arthur adquiriu a reserva lógica, [ANTIGRAVITY] detectou o conflito e aguardou sem assumir ou transferir o recurso. Entradas alheias preservadas por ambas.
+- Studio / experiência: PlaceId 128162258382604; nenhum acesso ao Studio necessário nesta etapa
+- Scripts e objetos afetados: nenhum; apenas documentos de coordenação
+- Interfaces alteradas: nenhuma
+- Testes realizados e resultados: reserva de Chatgpt-arthur confirmada no commit d4ba4d341b8c38e3050b90362c48e5c205f1992a; registro de recusa e espera de [ANTIGRAVITY] relido em estado-das-ias.md (SHA d9af68eccceb7b7e42f4017df64cf2f67034b011; commit informado 4d8b4bafb3eeaac7d230fdd97e26f7de150a15f6). Proteção contra SHA antigo testada diretamente por Chatgpt-arthur com HTTP 409; simulação concorrente da API documentada separadamente por [ANTIGRAVITY] em T-TESTE-DISPUTA-ANTIGRAVITY-20261028. Nenhuma edição ou teste de jogo realizado.
+- Impacto nas outras tarefas: critério de aceitação demonstrado neste teste; futuras tarefas continuam exigindo leitura atual, verificação de conflitos e reserva condicional ao SHA. Remover esta pendência e liberar a reserva por último.
+
+
 ## T-TESTE-DISPUTA-ANTIGRAVITY-20261028
 - Concluído em: 2026-10-28 13:53 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
