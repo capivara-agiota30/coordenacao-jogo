@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: trabalhando
-- Tarefa: T-HIGHJUMP-ROLL-20261028-01 — pulo mais alto e cambalhota/roll refinado ao aterrissar
-- Recursos reservados: StarterPlayer.StarterCharacterScripts.MovementAnimationController, ReplicatedStorage.GameAnimations.RollAnimation, ServerScriptService.GlobalAnimationServer
-- Última atualização: 2026-10-28 14:56 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: aumentar JumpPower/JumpHeight, criar KeyframeSequence de roll (cambalhota) para R6 e integrar ao impacto de aterrissagem no controller
+- Estado: livre
+- Tarefa: nenhuma; T-HIGHJUMP-ROLL-20261028-01 concluída
+- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
+- Última atualização: 2026-10-28 14:58 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar nova tarefa do usuário
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: iniciando criação da animação de cambalhota e ajuste de pulo
+- Progresso parcial no Studio: pulo alto (JumpPower 65) e cambalhota na aterrissagem configurados com sucesso
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
+- Decisões e testes feitos / pendentes: T-HIGHJUMP-ROLL-20261028-01 concluída com sucesso; animação de LandingRoll acrobática criada e sincronizada com impulso na aterrissagem; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
