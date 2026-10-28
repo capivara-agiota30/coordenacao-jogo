@@ -35,12 +35,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [ANTIGRAVITY]
 - Nome fixo: [ANTIGRAVITY]
-- Estado: trabalhando
-- Tarefa: T-DOUBLE-JUMP-HEIGHT-20261028-01 — dobrar a altura do pulo do personagem
-- Recursos reservados: ServerScriptService.GlobalAnimationServer, StarterPlayer.StarterCharacterScripts.MovementAnimationController
-- Última atualização: 2026-10-28 15:05 -03:00 (America/Sao_Paulo)
-- Próximo passo / bloqueio: duplicar a altura do pulo (JumpHeight de 7.2 para 14.4 / JumpPower correspondente a ~71), mantendo a animacao de pulo do R6 sem cambalhota
+- Estado: livre
+- Tarefa: nenhuma; T-DOUBLE-JUMP-HEIGHT-20261028-01 concluída
+- Recursos reservados: nenhum; reserva liberada após confirmação de alteracoes.md e remoção da pendência
+- Última atualização: 2026-10-28 15:06 -03:00 (America/Sao_Paulo)
+- Próximo passo / bloqueio: aguardar nova tarefa do usuário
 - Substitui / substituída por: nenhum
-- Progresso parcial no Studio: iniciando ajuste de altura do pulo
+- Progresso parcial no Studio: altura do pulo dobrada para 14.4 studs (JumpHeight) com animação nativa R6 preservada
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Decisões e testes feitos / pendentes: reserva condicional adquirida; pendência adicionada em alteracoes-pendentes.md
+- Decisões e testes feitos / pendentes: T-DOUBLE-JUMP-HEIGHT-20261028-01 concluída com sucesso; StarterPlayer e servidor atualizados com JumpHeight = 14.4 studs; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
