@@ -2,6 +2,17 @@
 
 Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
 
+## T-TESTE-DISPUTA-ANTIGRAVITY-20261028
+- Concluído em: 2026-10-28 13:53 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [ANTIGRAVITY]
+- Resumo: teste de aceitação de disputa de reservas concorrentes entre duas IAs executado com sucesso; mecanismo de controle por SHA rejeitou atomicamente a segunda requisição simultânea com HTTP 409 Conflict, evitando reservas conflitantes.
+- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: nenhum no Studio.
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: disparadas requisições simultâneas concorrentes para a API do GitHub no mesmo arquivo estado-das-ias.md compartilhando o mesmo SHA lido. Apenas uma requisição foi aceita (código 0), enquanto a outra retornou código 1 e HTTP 409 Conflict comprovando a rejeição de versão obsoleta. Em seguida, a marcação de teste foi limpa preservando as entradas existentes.
+- Impacto nas outras tarefas: validação de concorrência de reservas de AGENTS.md satisfeita; sistema apto para operação segura.
+
+
 ## T-CONEXAO-ANTIGRAVITY-20261028
 - Concluído em: 2026-10-28 13:51 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
