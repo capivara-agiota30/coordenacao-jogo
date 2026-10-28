@@ -44,5 +44,3 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 - Progresso parcial no Studio: somente leitura e inspeção do Studio; nenhuma alteração efetuada
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Decisões e testes feitos / pendentes: TESTE-CONEXAO-ANTIGRAVITY-20261028: leitura e escrita autenticadas via GitHub CLI; MCP nativo Roblox Studio verificado via tool list_roblox_studios; teste condicional com SHA realizado; instruções locais persistentes em AGENTS.md
-
-<!-- TESTE DISPUTA AGENT B -->
