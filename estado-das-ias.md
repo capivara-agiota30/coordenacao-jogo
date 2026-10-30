@@ -48,12 +48,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: trabalhando
-- Tarefa: T-PUNCH-TRAIL-20261029-01 (smear frame preto no punho)
-- Recursos reservados: StarterPlayer.StarterCharacterScripts.MovementAnimationController
-- Ultima atualizacao: 2026-10-29 23:55 -03:00 (America/Sao_Paulo)
+- Estado: livre
+- Tarefa: nenhuma; T-PUNCH-TRAIL-20261029-01 concluida
+- Recursos reservados: nenhum
+- Ultima atualizacao: 2026-10-29 23:58 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
-- Progresso parcial no Studio: nenhum; som trocado e soco mais rapido
+- Progresso parcial no Studio: nenhum; smear trail preto no punho
 - Studio / experiencia: projeto cyberpunk (placeId: 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
-- Decisoes e testes feitos / pendentes: T-PUNCH-TWEAK-20261029-01 concluida; som 72142112079276 e Speed 1.25 confirmados em runtime; play-test sem erros.
+- Decisoes e testes feitos / pendentes: T-PUNCH-TRAIL-20261029-01 concluida; trails pretos nos punhos ativados/desativados corretamente; play-test sem erros.
