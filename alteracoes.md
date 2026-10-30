@@ -210,6 +210,16 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide. Pendencia removida e reserva liberada nesta sequencia.
 
 
+## T-PUNCH-REFINE-20261029-01
+- Concluido em: 2026-10-29 23:20 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: refinado o soco do botao esquerdo. (1) Animacao nao quebra mais em cliques rapidos: crossfade simetrico (FadeIn 0.05 / FadeOut 0.12) - para somente o soco anterior (lastPunchTrack) em vez de parar todas as tracks, evitando briga entre elas. (2) Mao alternada a cada soco: SwingKS e Swing3KS sao braco direito dominante, Swing2KS esquerdo (medido por magnitude de rotacao das poses); sequencia R->L->R->L sem duas direitas seguidas na virada do combo. (3) Som do soco adicionado (rbxassetid://114843195133055) via Config.Sounds.Punch + playActionSound.
+- Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
+- Scripts e objetos afetados: StarterPlayer.StarterCharacterScripts.MovementAnimationController (executePunch reescrito com PUNCH_RIGHT/PUNCH_LEFT, crossfade, playActionSound); ReplicatedStorage.AnimationConfig (Config.Punch ganhou FadeIn/FadeOut, removeu ComboWindow/ResetToFirst; Config.Sounds.Punch criado).
+- Interfaces alteradas: nenhuma nova.
+- Testes realizados e resultados: play-test com cliques (user_mouse_input) unicos e em rajada de 8x sem nenhum erro nem warning no console. MovePunchSound criado no personagem com id correto. Logica de alternancia validada (R->L->R->L->R->L->R->L). LIMITACAO: a troca de mao visual (qual braco aparece) nao pode ser confirmada por ferramenta - requer olhar o personagem no Studio.
+- Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide. Reserva liberada.
+
 ## Modelo de entrada
 - ID: T-<identificador único>
 - Concluído em: <data e hora com fuso>
