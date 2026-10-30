@@ -220,6 +220,16 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Testes realizados e resultados: play-test com cliques (user_mouse_input) unicos e em rajada de 8x sem nenhum erro nem warning no console. MovePunchSound criado no personagem com id correto. Logica de alternancia validada (R->L->R->L->R->L->R->L). LIMITACAO: a troca de mao visual (qual braco aparece) nao pode ser confirmada por ferramenta - requer olhar o personagem no Studio.
 - Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide. Reserva liberada.
 
+## T-PUNCH-TWEAK-20261029-01
+- Concluido em: 2026-10-29 23:45 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: ajuste fino do soco. (1) Som trocado de rbxassetid://114843195133055 para rbxassetid://72142112079276 (Config.Sounds.Punch). (2) Soco mais rapido: Speed das 3 animacoes (Punch1/2/3) de 1.0 para 1.25 e Cooldown de 0.3 para 0.25.
+- Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
+- Scripts e objetos afetados: ReplicatedStorage.AnimationConfig (Config.Sounds.Punch.SoundId; Config.Punch.Cooldown; Config.Animations.Punch1/2/3.Speed).
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: play-test com cliques (user_mouse_input) confirmou em runtime o novo SoundId (72142112079276), Cooldown=0.25 e Speed=1.25 nas tres animacoes; console sem erros nem warnings.
+- Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide nem a logica de alternancia de mao. Reserva liberada.
+
 ## Modelo de entrada
 - ID: T-<identificador único>
 - Concluído em: <data e hora com fuso>
