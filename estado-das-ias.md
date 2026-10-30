@@ -48,12 +48,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: trabalhando
-- Tarefa: T-BLOCK-DEFESA-20261030-01 (converter DEFESA CurveAnimation e usar no bloqueio)
-- Recursos reservados: ReplicatedStorage.AnimationConfig; ReplicatedStorage.GameAnimations
-- Ultima atualizacao: 2026-10-30 00:40 -03:00 (America/Sao_Paulo)
+- Estado: livre
+- Tarefa: nenhuma; T-BLOCK-DEFESA-20261030-01 concluida
+- Recursos reservados: nenhum
+- Ultima atualizacao: 2026-10-30 00:45 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
-- Progresso parcial no Studio: nenhum; bloqueio no F com maos na cara
+- Progresso parcial no Studio: nenhum; DEFESA convertida e em uso no bloqueio
 - Studio / experiencia: projeto cyberpunk (placeId: 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
-- Decisoes e testes feitos / pendentes: T-BLOCK-TWEAK-20261030-01 concluida; bloqueio no F funcionando; pose de guarda no rosto.
+- Decisoes e testes feitos / pendentes: T-BLOCK-DEFESA-20261030-01 concluida; DEFESA_KS (21 keyframes, 2s) funcionando no bloqueio; play-test sem erros.
