@@ -177,6 +177,17 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Impacto nas outras tarefas: nenhuma reserva adquirida; teste de disputa da mesma tarefa entre duas IAs ainda pendente. Até validação, usar divisão fixa de sistemas conforme AGENTS.md.
 
 
+## T-CONEXAO-OPENCODE-20261029
+- Concluido em: 2026-10-29 21:35 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: configuracao inicial de conexoes para OpenCode; verificacao do MCP do Roblox Studio e do GitHub CLI; registro em estado-das-ias.md com gravacao condicionada ao SHA preservando as entradas de Chatgpt-arthur e [ANTIGRAVITY]; instrucoes persistentes criadas em AGENTS.md na pasta de trabalho. Nenhum desenvolvimento iniciado.
+- Studio / experiencia: projeto cyberpunk (placeId: 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
+- Scripts e objetos afetados: nenhum; apenas listagem e inspecao das instancias do Roblox Studio via MCP.
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: TESTE-CONEXAO-OPENCODE-20261029; leitura autenticada e escrita em main confirmadas; gravacao com SHA desatualizado rejeitada com HTTP 409 CONFLICT (controle condicional de versao comprovado); registro de estado concluido no commit a6d16e539bb812d9b669e1ee1618e990c23f1676; list_roblox_studios retornou a instancia ativa. Nenhum teste de jogo executado.
+- Impacto nas outras tarefas: nenhuma reserva adquirida; divisao fixa de sistemas mantida ate validacao.
+
+
 ## Modelo de entrada
 - ID: T-<identificador único>
 - Concluído em: <data e hora com fuso>
