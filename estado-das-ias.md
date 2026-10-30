@@ -44,3 +44,16 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 - Progresso parcial no Studio: Dash ativado na tecla Q com animacao nativa do modelo R6 Dash Anim
 - Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Decisões e testes feitos / pendentes: T-DASH-KEY-Q-20261028-01 concluída com sucesso; animacao oficial Dash do modelo R6 Dash Anim integrada na tecla Q; histórico registrado em alteracoes.md e pendência removida antes da liberação da reserva.
+
+
+## [OPENCODE]
+- Nome fixo: [OPENCODE]
+- Estado: livre
+- Tarefa: nenhuma; T-CONEXAO-OPENCODE-20261029 concluida
+- Recursos reservados: nenhum
+- Ultima atualizacao: 2026-10-29 21:34 -03:00 (America/Sao_Paulo)
+- Proximo passo / bloqueio: aguardar tarefa do usuario
+- Substitui / substituida por: nenhum
+- Progresso parcial no Studio: nenhum; jogo nao alterado durante a configuracao
+- Studio / experiencia: projeto cyberpunk (placeId: 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
+- Decisoes e testes feitos / pendentes: TESTE-CONEXAO-OPENCODE-20261029; leitura e escrita em main confirmadas; SHA desatualizado rejeitado com HTTP 409 CONFLICT; MCP do Roblox Studio conectado via list_roblox_studios. Nenhum desenvolvimento iniciado.
