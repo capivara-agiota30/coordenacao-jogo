@@ -199,6 +199,17 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Impacto nas outras tarefas: nao afeta dash; reserva liberada apos registro. Nenhuma outra IA com reserva ativa no momento.
 
 
+## T-PUNCH-M1-20261029-01
+- Concluido em: 2026-10-29 22:35 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: adicionado soco no botao esquerdo do mouse com combo de 3 golpes. Animacoes Swing/Swing 2/Swing 3 do TemplateR6.AnimSaves clonadas para ReplicatedStorage.GameAnimations como SwingKS/Swing2KS/Swing3KS. Config.Punch (tecla, cooldown, janela de combo) e Config.Animations.Punch1/2/3 criados. executePunch() no MovementAnimationController avanca o combo, respeita cooldown e nao soca durante dash/slide.
+- Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
+- Scripts e objetos afetados: StarterPlayer.StarterCharacterScripts.MovementAnimationController (PUNCH_NAMES, executePunch, InputBegan); ReplicatedStorage.AnimationConfig (Config.Punch + Punch1/2/3); ReplicatedStorage.GameAnimations (SwingKS, Swing2KS, Swing3KS clonadas de Workspace.TemplateR6.AnimSaves).
+- Interfaces alteradas: nenhuma nova; reutiliza playTrack/stopTrack e o InputBegan existente.
+- Testes realizados e resultados: play-test sem erros nem warnings [Animações]; validado em runtime que SwingKS/Swing2KS/Swing3KS registram no KeyframeSequenceProvider e carregam com duracao 0.97/0.98/0.97s. LIMITACAO: nao foi possivel simular o clique (VirtualInputManager bloqueado por capability RobloxScript), entao o combo em si nao foi observado rodando - requer teste manual com o mouse.
+- Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide. Pendencia removida e reserva liberada nesta sequencia.
+
+
 ## Modelo de entrada
 - ID: T-<identificador único>
 - Concluído em: <data e hora com fuso>
