@@ -48,12 +48,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: trabalhando
-- Tarefa: T-BLOCK-TWEAK-20261030-01 (bloqueio no F, maos na cara)
-- Recursos reservados: ReplicatedStorage.AnimationConfig; ReplicatedStorage.GameAnimations
-- Ultima atualizacao: 2026-10-30 00:20 -03:00 (America/Sao_Paulo)
+- Estado: livre
+- Tarefa: nenhuma; T-BLOCK-TWEAK-20261030-01 concluida
+- Recursos reservados: nenhum
+- Ultima atualizacao: 2026-10-30 00:25 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
-- Progresso parcial no Studio: nenhum; smear dash-style + volume + bloqueio
+- Progresso parcial no Studio: nenhum; bloqueio no F com maos na cara
 - Studio / experiencia: projeto cyberpunk (placeId: 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
-- Decisoes e testes feitos / pendentes: T-PUNCH-POLISH-20261029-01 concluida; smear 6 trails por punho + volume 0.55 + bloqueio RMB funcionando; play-test sem erros.
+- Decisoes e testes feitos / pendentes: T-BLOCK-TWEAK-20261030-01 concluida; bloqueio no F funcionando; pose de guarda no rosto.
