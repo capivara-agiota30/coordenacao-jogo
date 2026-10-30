@@ -48,12 +48,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: trabalhando
-- Tarefa: T-SLIDE-FORWARD-20261029-01 (corrigir direcao e alcance do slide)
-- Recursos reservados: StarterPlayer.StarterCharacterScripts.MovementAnimationController; ReplicatedStorage.AnimationConfig
-- Ultima atualizacao: 2026-10-29 21:34 -03:00 (America/Sao_Paulo)
+- Estado: livre
+- Tarefa: nenhuma; T-SLIDE-FORWARD-20261029-01 concluida
+- Recursos reservados: nenhum
+- Ultima atualizacao: 2026-10-29 22:05 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
-- Progresso parcial no Studio: nenhum; jogo nao alterado durante a configuracao
+- Progresso parcial no Studio: nenhum; slide corrigido e publicado
 - Studio / experiencia: projeto cyberpunk (placeId: 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
 - Decisoes e testes feitos / pendentes: TESTE-CONEXAO-OPENCODE-20261029; leitura e escrita em main confirmadas; SHA desatualizado rejeitado com HTTP 409 CONFLICT; MCP do Roblox Studio conectado via list_roblox_studios. Nenhum desenvolvimento iniciado.
