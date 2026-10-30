@@ -188,6 +188,17 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Impacto nas outras tarefas: nenhuma reserva adquirida; divisao fixa de sistemas mantida ate validacao.
 
 
+## T-SLIDE-FORWARD-20261029-01
+- Concluido em: 2026-10-29 22:05 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: corrigido o slide para deslizar na direcao correta e cobrir mais distancia. Causa do lado errado: o slide usava a velocidade residual do physics (getFlatVelocity().Unit) como direcao, que pode ter componente lateral; agora usa getSlideDirection() baseada em MoveDirection (relativo a camera) com fallback na frente do personagem, igual ao dash. Causa do pouco avanco: valores do AnimationConfig.Slide aumentados (Duration 0.8->1.2s, MaxInitialSpeed 34->45, BoostMultiplier 1.2->1.6, ExitSpeed 12->16, Deceleration 1.5->1.0).
+- Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
+- Scripts e objetos afetados: StarterPlayer.StarterCharacterScripts.MovementAnimationController (nova getSlideDirection + uso no executeSlide); ReplicatedStorage.AnimationConfig (config.Slide).
+- Interfaces alteradas: nenhuma nova; executeSlide reutiliza startForcedMotion existente.
+- Testes realizados e resultados: play-test no Studio sem erros de script (apenas erro pre-existente de asset rbxassetid://203785492 nao relacionado); verificacao estatica das edicoes por script_read. Nao medido numericamente a distancia no jogo; ajuste de sensacao precisa de teste humano.
+- Impacto nas outras tarefas: nao afeta dash; reserva liberada apos registro. Nenhuma outra IA com reserva ativa no momento.
+
+
 ## Modelo de entrada
 - ID: T-<identificador único>
 - Concluído em: <data e hora com fuso>
