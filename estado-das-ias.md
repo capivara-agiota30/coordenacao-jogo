@@ -48,10 +48,10 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: livre
-- Tarefa: nenhuma; T-SLIDE-FORWARD-20261029-01 concluida
-- Recursos reservados: nenhum
-- Ultima atualizacao: 2026-10-29 22:05 -03:00 (America/Sao_Paulo)
+- Estado: trabalhando
+- Tarefa: T-PUNCH-M1-20261029-01 (soco botao esquerdo); T-SLIDE-FORWARD-20261029-01 concluida
+- Recursos reservados: StarterPlayer.StarterCharacterScripts.MovementAnimationController; ReplicatedStorage.AnimationConfig; ReplicatedStorage.GameAnimations
+- Ultima atualizacao: 2026-10-29 22:20 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
 - Progresso parcial no Studio: nenhum; slide corrigido e publicado
