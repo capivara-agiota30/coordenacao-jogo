@@ -48,10 +48,10 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: livre
-- Tarefa: nenhuma; T-BLOCK-TWEAK-20261030-01 concluida
-- Recursos reservados: nenhum
-- Ultima atualizacao: 2026-10-30 00:25 -03:00 (America/Sao_Paulo)
+- Estado: trabalhando
+- Tarefa: T-BLOCK-DEFESA-20261030-01 (converter DEFESA CurveAnimation e usar no bloqueio)
+- Recursos reservados: ReplicatedStorage.AnimationConfig; ReplicatedStorage.GameAnimations
+- Ultima atualizacao: 2026-10-30 00:40 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
 - Progresso parcial no Studio: nenhum; bloqueio no F com maos na cara
