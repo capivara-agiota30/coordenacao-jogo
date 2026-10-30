@@ -250,6 +250,16 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Testes realizados e resultados: play-test (user_mouse_input) com rajada de 4 socos (6 trails por punho confirmados), hold de bloqueio (IsBlocking=true, WalkSpeed=8, BlockPlaying=true) e release (IsBlocking=false, WalkSpeed=16, BlockPlaying=false); console sem erros nem warnings.
 - Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide. Reserva liberada.
 
+## T-BLOCK-TWEAK-20261030-01
+- Concluido em: 2026-10-30 00:25 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: (1) Bloqueio movido para tecla F (Config.Block.Key = Enum.KeyCode.F). (2) Animacao de guarda (BlockKS) ajustada para maos na altura do rosto (Y=1.35, angulo -130 graus), em vez de na frente do peito.
+- Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 23b69ae8-dfde-4d66-9acf-86295efaba73
+- Scripts e objetos afetados: ReplicatedStorage.AnimationConfig (Config.Block.Key); ReplicatedStorage.GameAnimations (BlockKS recriado com pose de guarda no rosto).
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: play-test (user_keyboard_input) com F: hold ativa (IsBlocking=true, WalkSpeed=8, BlockPlaying=true); release desativa (IsBlocking=false, WalkSpeed=16); soco com LMB segue funcionando; console sem erros nem warnings.
+- Impacto nas outras tarefas: nenhuma reserva conflitante. Reserva liberada.
+
 ## Modelo de entrada
 - ID: T-<identificador único>
 - Concluído em: <data e hora com fuso>
