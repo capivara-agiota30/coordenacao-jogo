@@ -49,11 +49,11 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
 - Estado: livre
-- Tarefa: nenhuma; T-PUNCH-TRAIL-20261029-01 concluida
+- Tarefa: nenhuma; T-PUNCH-POLISH-20261029-01 concluida
 - Recursos reservados: nenhum
-- Ultima atualizacao: 2026-10-29 23:58 -03:00 (America/Sao_Paulo)
+- Ultima atualizacao: 2026-10-30 00:10 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
-- Progresso parcial no Studio: nenhum; smear trail preto no punho
+- Progresso parcial no Studio: nenhum; smear dash-style + volume + bloqueio
 - Studio / experiencia: projeto cyberpunk (placeId: 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
-- Decisoes e testes feitos / pendentes: T-PUNCH-TRAIL-20261029-01 concluida; trails pretos nos punhos ativados/desativados corretamente; play-test sem erros.
+- Decisoes e testes feitos / pendentes: T-PUNCH-POLISH-20261029-01 concluida; smear 6 trails por punho + volume 0.55 + bloqueio RMB funcionando; play-test sem erros.
