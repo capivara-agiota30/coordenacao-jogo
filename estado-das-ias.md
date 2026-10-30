@@ -48,12 +48,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: trabalhando
-- Tarefa: T-PUNCH-TWEAK-20261029-01 (trocar som + soco mais rapido)
-- Recursos reservados: ReplicatedStorage.AnimationConfig
-- Ultima atualizacao: 2026-10-29 23:40 -03:00 (America/Sao_Paulo)
+- Estado: livre
+- Tarefa: nenhuma; T-PUNCH-TWEAK-20261029-01 concluida
+- Recursos reservados: nenhum
+- Ultima atualizacao: 2026-10-29 23:45 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
-- Progresso parcial no Studio: nenhum; soco refinado (crossfade, mao alternada, som)
+- Progresso parcial no Studio: nenhum; som trocado e soco mais rapido
 - Studio / experiencia: projeto cyberpunk (placeId: 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
-- Decisoes e testes feitos / pendentes: T-PUNCH-REFINE-20261029-01 concluida; crossfade simetrico evita quebrar animacao em cliques rapidos; alternancia R->L validada; som 114843195133055 confirmado no personagem; play-test sem erros (rajada 8x). Pendente so confirmacao visual da troca de mao pelo usuario.
+- Decisoes e testes feitos / pendentes: T-PUNCH-TWEAK-20261029-01 concluida; som 72142112079276 e Speed 1.25 confirmados em runtime; play-test sem erros.
