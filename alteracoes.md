@@ -240,6 +240,16 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Testes realizados e resultados: play-test com rajada de 6 cliques; trails criados nas duas maos com attachments nas extremidades (Y=-0.85/-1.15, ponta do punho); trail do punho ativo durante o soco e desativado ao fim (verificado: ambos enabled=false apos animacao); console sem erros nem warnings.
 - Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide. Reserva liberada.
 
+## T-PUNCH-POLISH-20261029-01
+- Concluido em: 2026-10-30 00:10 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: (1) Smear trail redesenhado estilo dash: 6 trails por punho em circulo ao redor da ponta (raio 0.32), preto com leve cinza, mais transparente (0.5->1), Lifetime 0.18, WidthScale 1->0.2, FaceCamera. (2) Volume do som do soco abaixado de 1.2 para 0.55 (Config.Sounds.Punch). (3) Sistema de bloqueio: segurar botao direito (MouseButton2) ativa bloqueio - flag isBlocking + atributo IsBlocking no personagem, velocidade reduzida (x0.5), animacao de guarda (BlockKS, 2 keyframes), som (hook), previne soco enquanto bloqueia, InputEnded + fallback heartbeat para encerrar. Exposto via character:GetAttribute("IsBlocking") para sistemas de dano.
+- Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 23b69ae8-dfde-4d66-9acf-86295efaba73 (novo id da instancia Studio)
+- Scripts e objetos afetados: StarterPlayer.StarterCharacterScripts.MovementAnimationController (makeSmearTrails, startBlock/stopBlock, isBlocking, heartbeat fallback); ReplicatedStorage.AnimationConfig (Config.Block, Config.Sounds.Block, Config.Animations.Block, volume Punch); ReplicatedStorage.GameAnimations (BlockKS criado).
+- Interfaces alteradas: nenhuma nova externa; atributo IsBlocking adicionado ao personagem.
+- Testes realizados e resultados: play-test (user_mouse_input) com rajada de 4 socos (6 trails por punho confirmados), hold de bloqueio (IsBlocking=true, WalkSpeed=8, BlockPlaying=true) e release (IsBlocking=false, WalkSpeed=16, BlockPlaying=false); console sem erros nem warnings.
+- Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide. Reserva liberada.
+
 ## Modelo de entrada
 - ID: T-<identificador único>
 - Concluído em: <data e hora com fuso>
