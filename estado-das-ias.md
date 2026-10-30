@@ -48,10 +48,10 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: livre
-- Tarefa: nenhuma; T-PUNCH-M1-20261029-01 concluida
-- Recursos reservados: nenhum
-- Ultima atualizacao: 2026-10-29 22:35 -03:00 (America/Sao_Paulo)
+- Estado: trabalhando
+- Tarefa: T-PUNCH-REFINE-20261029-01 (alternar maos, som, refinar animacao)
+- Recursos reservados: StarterPlayer.StarterCharacterScripts.MovementAnimationController; ReplicatedStorage.AnimationConfig
+- Ultima atualizacao: 2026-10-29 23:05 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
 - Progresso parcial no Studio: nenhum; soco no botao esquerdo implementado e testado
