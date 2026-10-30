@@ -48,10 +48,10 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: livre
-- Tarefa: nenhuma; T-PUNCH-POLISH-20261029-01 concluida
-- Recursos reservados: nenhum
-- Ultima atualizacao: 2026-10-30 00:10 -03:00 (America/Sao_Paulo)
+- Estado: trabalhando
+- Tarefa: T-BLOCK-TWEAK-20261030-01 (bloqueio no F, maos na cara)
+- Recursos reservados: ReplicatedStorage.AnimationConfig; ReplicatedStorage.GameAnimations
+- Ultima atualizacao: 2026-10-30 00:20 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
 - Progresso parcial no Studio: nenhum; smear dash-style + volume + bloqueio
