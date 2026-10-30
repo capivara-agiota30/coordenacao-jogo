@@ -48,9 +48,9 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: livre
-- Tarefa: nenhuma; T-CONEXAO-OPENCODE-20261029 concluida
-- Recursos reservados: nenhum
+- Estado: trabalhando
+- Tarefa: T-SLIDE-FORWARD-20261029-01 (corrigir direcao e alcance do slide)
+- Recursos reservados: StarterPlayer.StarterCharacterScripts.MovementAnimationController; ReplicatedStorage.AnimationConfig
 - Ultima atualizacao: 2026-10-29 21:34 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
