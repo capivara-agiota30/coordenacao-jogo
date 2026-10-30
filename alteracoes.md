@@ -230,6 +230,16 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Testes realizados e resultados: play-test com cliques (user_mouse_input) confirmou em runtime o novo SoundId (72142112079276), Cooldown=0.25 e Speed=1.25 nas tres animacoes; console sem erros nem warnings.
 - Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide nem a logica de alternancia de mao. Reserva liberada.
 
+## T-PUNCH-TRAIL-20261029-01
+- Concluido em: 2026-10-29 23:58 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: smear frame (trail preto) no punho durante o soco. Criadas attachments + Trail (preto, Lifetime 0.22, WidthScale 0.8, FaceCamera) nas extremidades dos bracos R6 (Right Arm / Left Arm). O trail do punho que soca e ativado no inicio do soco e desativado ao fim da animacao (track.Stopped) com fallback task.delay(0.6). O outro punho e desativado para evitar rastro indevido. Alternancia de mao preservada.
+- Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
+- Scripts e objetos afetados: StarterPlayer.StarterCharacterScripts.MovementAnimationController (makeSmearTrail, rightSmear/leftSmear, ativacao no executePunch).
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: play-test com rajada de 6 cliques; trails criados nas duas maos com attachments nas extremidades (Y=-0.85/-1.15, ponta do punho); trail do punho ativo durante o soco e desativado ao fim (verificado: ambos enabled=false apos animacao); console sem erros nem warnings.
+- Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide. Reserva liberada.
+
 ## Modelo de entrada
 - ID: T-<identificador único>
 - Concluído em: <data e hora com fuso>
