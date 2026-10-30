@@ -260,6 +260,16 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Testes realizados e resultados: play-test (user_keyboard_input) com F: hold ativa (IsBlocking=true, WalkSpeed=8, BlockPlaying=true); release desativa (IsBlocking=false, WalkSpeed=16); soco com LMB segue funcionando; console sem erros nem warnings.
 - Impacto nas outras tarefas: nenhuma reserva conflitante. Reserva liberada.
 
+## T-BLOCK-DEFESA-20261030-01
+- Concluido em: 2026-10-30 00:45 -03:00 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: DEFESA (exportada do Apex Animator como CurveAnimation) convertida para KeyframeSequence (DEFESA_KS) por amostragem das FloatCurves (rotacao X/Y/Z por osso) em intervalos de 0.1s (0 a 2.0s, 21 keyframes). Bloqueio agora usa DEFESA_KS (Config.Animations.Block.Source = "DEFESA_KS") em vez do BlockKS manual. Prop Carcaca_Madeira ignorado (jogador nao possui).
+- Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 9188914c-0f3d-4cf1-999a-f072cc01de97
+- Scripts e objetos afetados: ReplicatedStorage.AnimationConfig (Config.Animations.Block.Source); ReplicatedStorage.GameAnimations (DEFESA clonado da Rig + DEFESA_KS gerado).
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: play-test (user_keyboard_input) com F: hold ativa (IsBlocking=true, WalkSpeed=8, Block playing DEFESA_KS len=2.00); release desativa; console sem erros nem warnings. LIMITACAO: amostragem a 0.1s pode perder nuances rapidas da animacao original; se ficar "robótica", posso aumentar a resolucao (ex.: 0.05s) ou ajustar.
+- Impacto nas outras tarefas: nenhuma reserva conflitante. Reserva liberada.
+
 ## Modelo de entrada
 - ID: T-<identificador único>
 - Concluído em: <data e hora com fuso>
