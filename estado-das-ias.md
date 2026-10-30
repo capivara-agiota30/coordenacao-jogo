@@ -48,12 +48,12 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: trabalhando
-- Tarefa: T-PUNCH-M1-20261029-01 (soco botao esquerdo); T-SLIDE-FORWARD-20261029-01 concluida
-- Recursos reservados: StarterPlayer.StarterCharacterScripts.MovementAnimationController; ReplicatedStorage.AnimationConfig; ReplicatedStorage.GameAnimations
-- Ultima atualizacao: 2026-10-29 22:20 -03:00 (America/Sao_Paulo)
+- Estado: livre
+- Tarefa: nenhuma; T-PUNCH-M1-20261029-01 concluida
+- Recursos reservados: nenhum
+- Ultima atualizacao: 2026-10-29 22:35 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
-- Progresso parcial no Studio: nenhum; slide corrigido e publicado
+- Progresso parcial no Studio: nenhum; soco no botao esquerdo implementado e testado
 - Studio / experiencia: projeto cyberpunk (placeId: 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
-- Decisoes e testes feitos / pendentes: TESTE-CONEXAO-OPENCODE-20261029; leitura e escrita em main confirmadas; SHA desatualizado rejeitado com HTTP 409 CONFLICT; MCP do Roblox Studio conectado via list_roblox_studios. Nenhum desenvolvimento iniciado.
+- Decisoes e testes feitos / pendentes: T-PUNCH-M1-20261029-01 concluida; combo Swing/Swing2/Swing3 clonado de TemplateR6 para GameAnimations; animacoes validadas (0.97/0.98/0.97s); play-test sem erros. Lim: clique nao simulavel (capability), combo requer teste manual com mouse.
