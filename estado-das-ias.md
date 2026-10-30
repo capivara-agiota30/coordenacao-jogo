@@ -48,10 +48,10 @@ Siga AGENTS.md. Após instrução do usuário e confirmação de que a IA anteri
 
 ## [OPENCODE]
 - Nome fixo: [OPENCODE]
-- Estado: livre
-- Tarefa: nenhuma; T-PUNCH-TWEAK-20261029-01 concluida
-- Recursos reservados: nenhum
-- Ultima atualizacao: 2026-10-29 23:45 -03:00 (America/Sao_Paulo)
+- Estado: trabalhando
+- Tarefa: T-PUNCH-TRAIL-20261029-01 (smear frame preto no punho)
+- Recursos reservados: StarterPlayer.StarterCharacterScripts.MovementAnimationController
+- Ultima atualizacao: 2026-10-29 23:55 -03:00 (America/Sao_Paulo)
 - Proximo passo / bloqueio: aguardar tarefa do usuario
 - Substitui / substituida por: nenhum
 - Progresso parcial no Studio: nenhum; som trocado e soco mais rapido
