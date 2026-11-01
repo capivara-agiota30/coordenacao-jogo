@@ -2,6 +2,16 @@
 
 Somente trabalho conclu├¡do. Preserve o ID da pend├¬ncia. Entradas novas no in├¡cio.
 
+## T-SLINGSHOT-ATIRANDO-20261031-01
+- Concluido em: 2026-10-31 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: integrada a animacao 'atirando' (exportada do Apex Animator) ao implante de estilingue. Convertida a CurveAnimation ServerStorage['Apex Animator Exports'].atirando para KeyframeSequence ReplicatedStorage.GameAnimations.AtirandoKS (21 keyframes, 2s) amostrando as FloatCurves. No Slingshot controller, a AtirandoKS e registrada via KeyframeSequenceProvider e carregada no Animator do personagem; ela toca em conjunto com a animacao Aim ao mirar (botao direito), e para ao soltar a mira. Fire mantem a animacao atirando tocando enquanto o disparo ocorre.
+- Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 375df271-a070-45ef-be65-4f63053b3064
+- Scripts e objetos afetados: ReplicatedStorage.GameAnimations.AtirandoKS (KeyframeSequence nova); StarterPlayer.StarterPlayerScripts.ImplantClient.Controllers.Slingshot (carregamento e play/stop da atirandoTrack em StartAim/StopAim).
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: play-test no Studio; StartAim executa e atirandoTrack toca com Length=2s em conjunto com Aim; console sem erros de animacao.
+- Impacto nas outras tarefas: nenhuma reserva conflitante.
+
 ## T-IDLE-TEMPLATE-20261031-01
 - Concluido em: 2026-10-31 (America/Sao_Paulo)
 - IA / pessoa: [OPENCODE]
