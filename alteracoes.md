@@ -1,86 +1,96 @@
-# Alterações concluídas
+﻿# Altera├º├Áes conclu├¡das
 
-Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no início.
+Somente trabalho conclu├¡do. Preserve o ID da pend├¬ncia. Entradas novas no in├¡cio.
+
+## T-IDLE-TEMPLATE-20261031-01
+- Concluido em: 2026-10-31 (America/Sao_Paulo)
+- IA / pessoa: [OPENCODE]
+- Resumo: aplicado o idle do modelo TemplateIDLE (variante Idle 2) ao personagem. Clonada a KeyframeSequence Workspace.TemplateIDLE.AnimSaves.Idle 2 para ReplicatedStorage.GameAnimations.IdleTemplateKS (substituindo a anterior), mantendo Config.Animations.Idle.Source = IdleTemplateKS. Adicionada chamada updateMovement() ao fim do MovementAnimationController para garantir que o idle toque ao spawn. Play-test confirmou Idle playing=true com duracao 3.98s.
+- Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 375df271-a070-45ef-be65-4f63053b3064
+- Scripts e objetos afetados: ReplicatedStorage.GameAnimations.IdleTemplateKS (KeyframeSequence clonada); StarterPlayer.StarterCharacterScripts.MovementAnimationController (updateMovement no spawn).
+- Interfaces alteradas: nenhuma.
+- Testes realizados e resultados: play-test no Studio; Idle playing=true len=3.983s no cliente; console sem erros de animacao.
+- Impacto nas outras tarefas: nenhuma reserva conflitante.
 
 ## T-DASH-KEY-Q-20261028-01
-- Concluído em: 2026-10-28 15:32 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 15:32 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: mecânica de deslocamento rápido atualizada: removido gatilho de Ctrl+Shift e substituído pelo acionamento direto na tecla Q; aplicada a animação nativa 'Dash' do modelo 'R6 Dash Anim' presente no Studio (86 keyframes), com impulso de 58 studs/s via LinearVelocity por 0.45s, efeito dinâmico de FOV e cooldown balanceado de 0.6s.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: mec├ónica de deslocamento r├ípido atualizada: removido gatilho de Ctrl+Shift e substitu├¡do pelo acionamento direto na tecla Q; aplicada a anima├º├úo nativa 'Dash' do modelo 'R6 Dash Anim' presente no Studio (86 keyframes), com impulso de 58 studs/s via LinearVelocity por 0.45s, efeito din├ómico de FOV e cooldown balanceado de 0.6s.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: ReplicatedStorage.GameAnimations.Dash (Animation), ReplicatedStorage.GameAnimations.DashKS (KeyframeSequence), StarterPlayer.StarterCharacterScripts.MovementAnimationController.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: KeyframeSequence Dash extraída de Workspace['R6 Dash Anim'].AnimSaves.Dash registrada via KeyframeSequenceProvider; acionamento na tecla Q validado sem necessidade de segurar Shift.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: KeyframeSequence Dash extra├¡da de Workspace['R6 Dash Anim'].AnimSaves.Dash registrada via KeyframeSequenceProvider; acionamento na tecla Q validado sem necessidade de segurar Shift.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-SPRINT-SLIDE-20261028-01
-- Concluído em: 2026-10-28 15:28 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 15:28 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: implementada mecânica de slide (deslizar) ao pressionar Ctrl (esquerdo/direito ou tecla C) enquanto corre segurando Shift; criada pose/animação estilizada de slide R6 registrada via KeyframeSequenceProvider, impulso físico por LinearVelocity (velocidade inicial de 48 studs/s com desaceleração e fricção ao longo de 0.65s) e transição de FOV dinâmico (86 graus), retornando suavemente à corrida.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: implementada mec├ónica de slide (deslizar) ao pressionar Ctrl (esquerdo/direito ou tecla C) enquanto corre segurando Shift; criada pose/anima├º├úo estilizada de slide R6 registrada via KeyframeSequenceProvider, impulso f├¡sico por LinearVelocity (velocidade inicial de 48 studs/s com desacelera├º├úo e fric├º├úo ao longo de 0.65s) e transi├º├úo de FOV din├ómico (86 graus), retornando suavemente ├á corrida.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: ReplicatedStorage.GameAnimations.Slide (Animation), ReplicatedStorage.GameAnimations.SlideKS (KeyframeSequence), StarterPlayer.StarterCharacterScripts.MovementAnimationController.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: registro de SlideAnimR6 validado no DataModel gerando ID de runtime válido; acionamento condicional sob Shift+Ctrl com cancelamento de faixas de solo e física de fricção validados.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: registro de SlideAnimR6 validado no DataModel gerando ID de runtime v├ílido; acionamento condicional sob Shift+Ctrl com cancelamento de faixas de solo e f├¡sica de fric├º├úo validados.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-DOUBLE-JUMP-HEIGHT-20261028-01
-- Concluído em: 2026-10-28 15:06 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 15:06 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: altura de pulo dobrada de 7.2 studs para 14.4 studs (JumpHeight = 14.4) em StarterPlayer.CharacterJumpHeight e em cada Humanoid no GlobalAnimationServer, mantendo a animação nativa de pulo R6 do Studio e sem cambalhota.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: altura de pulo dobrada de 7.2 studs para 14.4 studs (JumpHeight = 14.4) em StarterPlayer.CharacterJumpHeight e em cada Humanoid no GlobalAnimationServer, mantendo a anima├º├úo nativa de pulo R6 do Studio e sem cambalhota.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: StarterPlayer.CharacterJumpHeight, ServerScriptService.GlobalAnimationServer.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: verificado que CharacterJumpHeight = 14.4 e UseJumpPower = false foram aplicados para garantir exatamente o dobro da elevação física vertical ao saltar.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: verificado que CharacterJumpHeight = 14.4 e UseJumpPower = false foram aplicados para garantir exatamente o dobro da eleva├º├úo f├¡sica vertical ao saltar.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-REVERT-ROLL-APPLY-JUMP-20261028-01
-- Concluído em: 2026-10-28 15:04 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 15:04 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: removidos pulo alto e cambalhota na aterrissagem; JumpPower restaurado ao padrão de 50; aplicada a animação de pulo nativa do R6 (Workspace.Rig.Humanoid.AnimSaves.Jump) com transição limpa para corrida e caminhada.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: removidos pulo alto e cambalhota na aterrissagem; JumpPower restaurado ao padr├úo de 50; aplicada a anima├º├úo de pulo nativa do R6 (Workspace.Rig.Humanoid.AnimSaves.Jump) com transi├º├úo limpa para corrida e caminhada.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: ReplicatedStorage.GameAnimations.Jump (Animation), ServerScriptService.GlobalAnimationServer, StarterPlayer.StarterCharacterScripts.MovementAnimationController.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: LandingRoll removido de ReplicatedStorage e dos scripts; JumpPower redefinido para 50; execução de Jump anim do Rig validada.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: LandingRoll removido de ReplicatedStorage e dos scripts; JumpPower redefinido para 50; execu├º├úo de Jump anim do Rig validada.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-HIGHJUMP-ROLL-20261028-01
-- Concluído em: 2026-10-28 14:58 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 14:58 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: altura de pulo aumentada (JumpPower de 50 para 65) e implementada mecânica refinada de cambalhota de aterrissagem (Landing Roll) com rotação frontal de 360 graus, impulso de velocidade para frente ao tocar o chão em movimento e transição suave para corrida/caminhada. Sincronizado para todos os jogadores no servidor.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: altura de pulo aumentada (JumpPower de 50 para 65) e implementada mec├ónica refinada de cambalhota de aterrissagem (Landing Roll) com rota├º├úo frontal de 360 graus, impulso de velocidade para frente ao tocar o ch├úo em movimento e transi├º├úo suave para corrida/caminhada. Sincronizado para todos os jogadores no servidor.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: ReplicatedStorage.GameAnimations.LandingRoll (Animation), ReplicatedStorage.GameAnimations.RollKS (KeyframeSequence), ServerScriptService.GlobalAnimationServer, StarterPlayer.StarterCharacterScripts.MovementAnimationController.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: registro de KeyframeSequence de LandingRoll via KeyframeSequenceProvider concluído gerando ID de runtime válido; JumpPower configurado para 65 no servidor e acionamento por StateChanged.Landed com momentum linear validado.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: registro de KeyframeSequence de LandingRoll via KeyframeSequenceProvider conclu├¡do gerando ID de runtime v├ílido; JumpPower configurado para 65 no servidor e acionamento por StateChanged.Landed com momentum linear validado.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-JUMP-ANIM-20261028-01
-- Concluído em: 2026-10-28 14:50 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 14:50 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: animações de pulo e queda (Jump e Fall do Rig R6) registradas e integradas harmoniosamente ao ciclo de locomoção (caminhada SimpleWalk e corrida BestRunAnimR6), com interrupção instantânea de passos ao saltar e retorno suave ao aterrissar, com sincronização global para todos os jogadores.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: anima├º├Áes de pulo e queda (Jump e Fall do Rig R6) registradas e integradas harmoniosamente ao ciclo de locomo├º├úo (caminhada SimpleWalk e corrida BestRunAnimR6), com interrup├º├úo instant├ónea de passos ao saltar e retorno suave ao aterrissar, com sincroniza├º├úo global para todos os jogadores.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: ReplicatedStorage.GameAnimations.Jump, ReplicatedStorage.GameAnimations.Fall, ServerScriptService.GlobalAnimationServer, StarterPlayer.StarterCharacterScripts.MovementAnimationController.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: KeyframeSequences de Jump e Fall registradas com IDs válidos; lógica de troca de estados StateChanged (Jumping, Freefall, Landed) validada no script de cliente e servidor.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: KeyframeSequences de Jump e Fall registradas com IDs v├ílidos; l├│gica de troca de estados StateChanged (Jumping, Freefall, Landed) validada no script de cliente e servidor.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-GLOBAL-ANIM-SPRINT-20261028-01
-- Concluído em: 2026-10-28 14:46 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 14:46 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: sistema de animação global e sprint implementado para todos os jogadores via arquitetura cliente-servidor; caminhada utiliza SimpleWalk (do Rig/Baseplate) e corrida no Shift utiliza a animação BestRunAnimR6 (Run1 [by M0rsDev]), replicando via Animator do personagem e RemoteEvent SprintRemote validado no servidor para visibilidade entre múltiplos jogadores.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: sistema de anima├º├úo global e sprint implementado para todos os jogadores via arquitetura cliente-servidor; caminhada utiliza SimpleWalk (do Rig/Baseplate) e corrida no Shift utiliza a anima├º├úo BestRunAnimR6 (Run1 [by M0rsDev]), replicando via Animator do personagem e RemoteEvent SprintRemote validado no servidor para visibilidade entre m├║ltiplos jogadores.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: ReplicatedStorage.GameAnimations (SimpleWalk, BestRun, WalkKS, RunKS), ReplicatedStorage.SprintRemote (RemoteEvent), ServerScriptService.GlobalAnimationServer (Script), StarterPlayer.StarterCharacterScripts.MovementAnimationController (LocalScript).
-- Interfaces alteradas: ReplicatedStorage.SprintRemote (RemoteEvent com parâmetro boolean isSprinting).
-- Testes realizados e resultados: registro de BestRunAnimR6 e SimpleWalk validados via KeyframeSequenceProvider gerando IDs de runtime válidos; arquitetura cliente-servidor criada e scripts antigos limpos sem erros.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Interfaces alteradas: ReplicatedStorage.SprintRemote (RemoteEvent com par├ómetro boolean isSprinting).
+- Testes realizados e resultados: registro de BestRunAnimR6 e SimpleWalk validados via KeyframeSequenceProvider gerando IDs de runtime v├ílidos; arquitetura cliente-servidor criada e scripts antigos limpos sem erros.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-APPLY-WALKANIM-20261028-01
-- Concluído em: 2026-10-28 14:41 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 14:41 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: aplicada a animação de caminhada ('Walk' salva em Workspace.Rig.Humanoid.AnimSaves / Workspace.Baseplate.WalkAnimation) para todos os jogadores do jogo via StarterPlayer.StarterCharacterScripts.WalkAnimationHandler e ReplicatedStorage.GameAnimations, substituindo a animação padrão do Animate e provendo fallback autônomo com o Animator.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: aplicada a anima├º├úo de caminhada ('Walk' salva em Workspace.Rig.Humanoid.AnimSaves / Workspace.Baseplate.WalkAnimation) para todos os jogadores do jogo via StarterPlayer.StarterCharacterScripts.WalkAnimationHandler e ReplicatedStorage.GameAnimations, substituindo a anima├º├úo padr├úo do Animate e provendo fallback aut├┤nomo com o Animator.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: ReplicatedStorage.GameAnimations.SimpleWalk (Animation), ReplicatedStorage.GameAnimations.WalkKeyframeSequence (KeyframeSequence), StarterPlayer.StarterCharacterScripts.WalkAnimationHandler (LocalScript).
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: registro de KeyframeSequence via KeyframeSequenceProvider concluído gerando o ID de runtime 2a87dd2fede5a0d52f6deb4910b29d2f; injeção do LocalScript em StarterCharacterScripts validada no DataModel.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: registro de KeyframeSequence via KeyframeSequenceProvider conclu├¡do gerando o ID de runtime 2a87dd2fede5a0d52f6deb4910b29d2f; inje├º├úo do LocalScript em StarterCharacterScripts validada no DataModel.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-SPRINT-CUSTOMANIM-20261028-01
 - Concluido em: 2026-10-28 14:18 -03:00 (America/Sao_Paulo)
@@ -93,88 +103,88 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Impacto nas outras tarefas: nenhuma
 
 ## T-SPRINT-REALANIM-20261028-01
-- Concluído em: 2026-10-28 14:14 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 14:14 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: animação do sprint ajustada para o ciclo de corrida atlética real (RunFast, rbxassetid://913376220 no R15 e rbxassetid://180426354 no R6), com prioridade Action sobrepondo o andar padrão perfeitamente, passos e braços dobrados em ritmo de velocidade (playbackSpeed 1.35x), e remoção completa das oscilações procedurais no RootJoint.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: anima├º├úo do sprint ajustada para o ciclo de corrida atl├®tica real (RunFast, rbxassetid://913376220 no R15 e rbxassetid://180426354 no R6), com prioridade Action sobrepondo o andar padr├úo perfeitamente, passos e bra├ºos dobrados em ritmo de velocidade (playbackSpeed 1.35x), e remo├º├úo completa das oscila├º├Áes procedurais no RootJoint.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: StarterPlayer.StarterPlayerScripts.SprintController.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: execução Luau concluída e validada no DataModel com injeção do novo código de animação atlética.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: execu├º├úo Luau conclu├¡da e validada no DataModel com inje├º├úo do novo c├│digo de anima├º├úo atl├®tica.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-SPRINT-ANIMATION-20261028-01
-- Concluído em: 2026-10-28 14:09 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 14:09 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: animação e física de corrida enriquecidas com animação procedural dinâmica de tronco (inclinação para frente de -14 graus via RootJoint, bounce vertical de passos e leve oscilação lateral de corrida sincronizada com velocidade no chão), sem depender de aprovações de ID de assets externos e compatível com R6 e R15.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: anima├º├úo e f├¡sica de corrida enriquecidas com anima├º├úo procedural din├ómica de tronco (inclina├º├úo para frente de -14 graus via RootJoint, bounce vertical de passos e leve oscila├º├úo lateral de corrida sincronizada com velocidade no ch├úo), sem depender de aprova├º├Áes de ID de assets externos e compat├¡vel com R6 e R15.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: StarterPlayer.StarterPlayerScripts.SprintController.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: execução Luau validada no DataModel do Studio com injeção de lógica procedural no SprintController.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: execu├º├úo Luau validada no DataModel do Studio com inje├º├úo de l├│gica procedural no SprintController.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-SPRINT-SYSTEM-20261028-01
-- Concluído em: 2026-10-28 14:06 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 14:06 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: sistema de corrida implementado via LocalScript ao segurar a tecla Shift (esquerda ou direita), aumentando WalkSpeed de 16 para 26, transição dinâmica suave de FOV (70 para 80 com TweenService) e suporte a animação de corrida (AnimationPriority.Movement).
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: sistema de corrida implementado via LocalScript ao segurar a tecla Shift (esquerda ou direita), aumentando WalkSpeed de 16 para 26, transi├º├úo din├ómica suave de FOV (70 para 80 com TweenService) e suporte a anima├º├úo de corrida (AnimationPriority.Movement).
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: StarterPlayer.StarterPlayerScripts.SprintController (LocalScript), StarterPlayer.StarterPlayerScripts.SprintController.SprintAnim (Animation).
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: verificado via search_game_tree que StarterPlayer.StarterPlayerScripts.SprintController e a animação SprintAnim foram criados e populados com código Luau com sucesso.
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: verificado via search_game_tree que StarterPlayer.StarterPlayerScripts.SprintController e a anima├º├úo SprintAnim foram criados e populados com c├│digo Luau com sucesso.
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-BOLA-SORRISO-20261028-01
-- Concluído em: 2026-10-28 14:02 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 14:02 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: adicionada esfera amarela ancorada com o clássico decal de sorriso na baseplate do jogo.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Scripts e objetos afetados: Workspace.BolaAmarelaSorriso (Part esférica amarela 4x4x4, SmoothPlastic, Anchored), Workspace.BolaAmarelaSorriso.Sorriso (Decal com rbxasset://textures/face.png).
+- Resumo: adicionada esfera amarela ancorada com o cl├íssico decal de sorriso na baseplate do jogo.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: Workspace.BolaAmarelaSorriso (Part esf├®rica amarela 4x4x4, SmoothPlastic, Anchored), Workspace.BolaAmarelaSorriso.Sorriso (Decal com rbxasset://textures/face.png).
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: verificado via search_game_tree que o objeto Workspace.BolaAmarelaSorriso e o Decal Sorriso foram instanciados corretamente com propriedades esperadas na posição Vector3.new(0, 2, 0).
-- Impacto nas outras tarefas: nenhuma dependência.
+- Testes realizados e resultados: verificado via search_game_tree que o objeto Workspace.BolaAmarelaSorriso e o Decal Sorriso foram instanciados corretamente com propriedades esperadas na posi├º├úo Vector3.new(0, 2, 0).
+- Impacto nas outras tarefas: nenhuma depend├¬ncia.
 
 ## T-DISPUTA-20261028-01
 - ID: T-DISPUTA-20261028-01
-- Concluído em: 2026-10-28 13:58 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 13:58 -03:00 (America/Sao_Paulo)
 - IA / pessoa: Chatgpt-arthur e [ANTIGRAVITY], preservadas as autorias individuais
-- Resumo: teste de aceitação de reserva concluído; Chatgpt-arthur adquiriu a reserva lógica, [ANTIGRAVITY] detectou o conflito e aguardou sem assumir ou transferir o recurso. Entradas alheias preservadas por ambas.
-- Studio / experiência: PlaceId 128162258382604; nenhum acesso ao Studio necessário nesta etapa
-- Scripts e objetos afetados: nenhum; apenas documentos de coordenação
+- Resumo: teste de aceita├º├úo de reserva conclu├¡do; Chatgpt-arthur adquiriu a reserva l├│gica, [ANTIGRAVITY] detectou o conflito e aguardou sem assumir ou transferir o recurso. Entradas alheias preservadas por ambas.
+- Studio / experi├¬ncia: PlaceId 128162258382604; nenhum acesso ao Studio necess├írio nesta etapa
+- Scripts e objetos afetados: nenhum; apenas documentos de coordena├º├úo
 - Interfaces alteradas: nenhuma
-- Testes realizados e resultados: reserva de Chatgpt-arthur confirmada no commit d4ba4d341b8c38e3050b90362c48e5c205f1992a; registro de recusa e espera de [ANTIGRAVITY] relido em estado-das-ias.md (SHA d9af68eccceb7b7e42f4017df64cf2f67034b011; commit informado 4d8b4bafb3eeaac7d230fdd97e26f7de150a15f6). Proteção contra SHA antigo testada diretamente por Chatgpt-arthur com HTTP 409; simulação concorrente da API documentada separadamente por [ANTIGRAVITY] em T-TESTE-DISPUTA-ANTIGRAVITY-20261028. Nenhuma edição ou teste de jogo realizado.
-- Impacto nas outras tarefas: critério de aceitação demonstrado neste teste; futuras tarefas continuam exigindo leitura atual, verificação de conflitos e reserva condicional ao SHA. Remover esta pendência e liberar a reserva por último.
+- Testes realizados e resultados: reserva de Chatgpt-arthur confirmada no commit d4ba4d341b8c38e3050b90362c48e5c205f1992a; registro de recusa e espera de [ANTIGRAVITY] relido em estado-das-ias.md (SHA d9af68eccceb7b7e42f4017df64cf2f67034b011; commit informado 4d8b4bafb3eeaac7d230fdd97e26f7de150a15f6). Prote├º├úo contra SHA antigo testada diretamente por Chatgpt-arthur com HTTP 409; simula├º├úo concorrente da API documentada separadamente por [ANTIGRAVITY] em T-TESTE-DISPUTA-ANTIGRAVITY-20261028. Nenhuma edi├º├úo ou teste de jogo realizado.
+- Impacto nas outras tarefas: crit├®rio de aceita├º├úo demonstrado neste teste; futuras tarefas continuam exigindo leitura atual, verifica├º├úo de conflitos e reserva condicional ao SHA. Remover esta pend├¬ncia e liberar a reserva por ├║ltimo.
 
 
 ## T-TESTE-DISPUTA-ANTIGRAVITY-20261028
-- Concluído em: 2026-10-28 13:53 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 13:53 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: teste de aceitação de disputa de reservas concorrentes entre duas IAs executado com sucesso; mecanismo de controle por SHA rejeitou atomicamente a segunda requisição simultânea com HTTP 409 Conflict, evitando reservas conflitantes.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Resumo: teste de aceita├º├úo de disputa de reservas concorrentes entre duas IAs executado com sucesso; mecanismo de controle por SHA rejeitou atomicamente a segunda requisi├º├úo simult├ónea com HTTP 409 Conflict, evitando reservas conflitantes.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
 - Scripts e objetos afetados: nenhum no Studio.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: disparadas requisições simultâneas concorrentes para a API do GitHub no mesmo arquivo estado-das-ias.md compartilhando o mesmo SHA lido. Apenas uma requisição foi aceita (código 0), enquanto a outra retornou código 1 e HTTP 409 Conflict comprovando a rejeição de versão obsoleta. Em seguida, a marcação de teste foi limpa preservando as entradas existentes.
-- Impacto nas outras tarefas: validação de concorrência de reservas de AGENTS.md satisfeita; sistema apto para operação segura.
+- Testes realizados e resultados: disparadas requisi├º├Áes simult├óneas concorrentes para a API do GitHub no mesmo arquivo estado-das-ias.md compartilhando o mesmo SHA lido. Apenas uma requisi├º├úo foi aceita (c├│digo 0), enquanto a outra retornou c├│digo 1 e HTTP 409 Conflict comprovando a rejei├º├úo de vers├úo obsoleta. Em seguida, a marca├º├úo de teste foi limpa preservando as entradas existentes.
+- Impacto nas outras tarefas: valida├º├úo de concorr├¬ncia de reservas de AGENTS.md satisfeita; sistema apto para opera├º├úo segura.
 
 
 ## T-CONEXAO-ANTIGRAVITY-20261028
-- Concluído em: 2026-10-28 13:51 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 13:51 -03:00 (America/Sao_Paulo)
 - IA / pessoa: [ANTIGRAVITY]
-- Resumo: configuração inicial de conexões e verificação das ferramentas MCP do Roblox Studio e GitHub CLI; registro em estado-das-ias.md preservando conteúdo de Chatgpt-arthur; instruções persistentes criadas em AGENTS.md na pasta de trabalho local. Nenhum desenvolvimento iniciado.
-- Studio / experiência: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
-- Scripts e objetos afetados: nenhum; apenas listagem e inspeção das instâncias do Roblox Studio via MCP.
+- Resumo: configura├º├úo inicial de conex├Áes e verifica├º├úo das ferramentas MCP do Roblox Studio e GitHub CLI; registro em estado-das-ias.md preservando conte├║do de Chatgpt-arthur; instru├º├Áes persistentes criadas em AGENTS.md na pasta de trabalho local. Nenhum desenvolvimento iniciado.
+- Studio / experi├¬ncia: projeto cyberpunk (placeId: 128162258382604); id: 66546857-569b-4503-aca6-6a489a4a072c
+- Scripts e objetos afetados: nenhum; apenas listagem e inspe├º├úo das inst├óncias do Roblox Studio via MCP.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: TESTE-CONEXAO-ANTIGRAVITY-20261028; leitura autenticada e escrita com permissão WRITE confirmadas na branch main; teste com SHA desatualizado falhou com HTTP 409 CONFLICT (comprovando controle condicional de versão); gravação de estado com SHA atualizado concluída com sucesso (commit dec1576fe6c4dd57227ed920656a709e660d06b3); list_roblox_studios retornou instância ativa com sucesso.
-- Impacto nas outras tarefas: nenhuma reserva adquirida; teste de concorrência simultânea entre duas IAs pendente; manter divisão fixa de sistemas até validação.
+- Testes realizados e resultados: TESTE-CONEXAO-ANTIGRAVITY-20261028; leitura autenticada e escrita com permiss├úo WRITE confirmadas na branch main; teste com SHA desatualizado falhou com HTTP 409 CONFLICT (comprovando controle condicional de vers├úo); grava├º├úo de estado com SHA atualizado conclu├¡da com sucesso (commit dec1576fe6c4dd57227ed920656a709e660d06b3); list_roblox_studios retornou inst├óncia ativa com sucesso.
+- Impacto nas outras tarefas: nenhuma reserva adquirida; teste de concorr├¬ncia simult├ónea entre duas IAs pendente; manter divis├úo fixa de sistemas at├® valida├º├úo.
 
 
 ## T-CONEXAO-Chatgpt-arthur-20261028
-- Concluído em: 2026-10-28 13:32 -03:00 (America/Sao_Paulo)
+- Conclu├¡do em: 2026-10-28 13:32 -03:00 (America/Sao_Paulo)
 - IA / pessoa: Chatgpt-arthur
-- Resumo: configuração inicial de conexões; registro em estado-das-ias.md preservando conteúdo; instruções persistentes criadas no AGENTS.md da pasta de trabalho do Codex, orientando consulta às regras atuais no GitHub. Nenhum desenvolvimento iniciado.
-- Studio / experiência: Local de Capivara_agiota30: 10282026_1; PlaceId 128162258382604; GameId 10773516313; confirmado pelo usuário.
-- Scripts e objetos afetados: nenhum; somente inspeção de identificadores no Studio.
+- Resumo: configura├º├úo inicial de conex├Áes; registro em estado-das-ias.md preservando conte├║do; instru├º├Áes persistentes criadas no AGENTS.md da pasta de trabalho do Codex, orientando consulta ├ás regras atuais no GitHub. Nenhum desenvolvimento iniciado.
+- Studio / experi├¬ncia: Local de Capivara_agiota30: 10282026_1; PlaceId 128162258382604; GameId 10773516313; confirmado pelo usu├írio.
+- Scripts e objetos afetados: nenhum; somente inspe├º├úo de identificadores no Studio.
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: TESTE-CONEXAO-Chatgpt-arthur-20261028; leitura autenticada e escrita em main confirmadas; registro inicial no commit 7b14f794ff78bc80c751727bc15328552facf388; repetição com SHA anterior rejeitada com HTTP 409 CONFLICT; conteúdo relido e preservado. Nenhum teste de jogo executado.
-- Impacto nas outras tarefas: nenhuma reserva adquirida; teste de disputa da mesma tarefa entre duas IAs ainda pendente. Até validação, usar divisão fixa de sistemas conforme AGENTS.md.
+- Testes realizados e resultados: TESTE-CONEXAO-Chatgpt-arthur-20261028; leitura autenticada e escrita em main confirmadas; registro inicial no commit 7b14f794ff78bc80c751727bc15328552facf388; repeti├º├úo com SHA anterior rejeitada com HTTP 409 CONFLICT; conte├║do relido e preservado. Nenhum teste de jogo executado.
+- Impacto nas outras tarefas: nenhuma reserva adquirida; teste de disputa da mesma tarefa entre duas IAs ainda pendente. At├® valida├º├úo, usar divis├úo fixa de sistemas conforme AGENTS.md.
 
 
 ## T-CONEXAO-OPENCODE-20261029
@@ -206,7 +216,7 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 35403bfd-be8e-48df-af28-27e0ec991899
 - Scripts e objetos afetados: StarterPlayer.StarterCharacterScripts.MovementAnimationController (PUNCH_NAMES, executePunch, InputBegan); ReplicatedStorage.AnimationConfig (Config.Punch + Punch1/2/3); ReplicatedStorage.GameAnimations (SwingKS, Swing2KS, Swing3KS clonadas de Workspace.TemplateR6.AnimSaves).
 - Interfaces alteradas: nenhuma nova; reutiliza playTrack/stopTrack e o InputBegan existente.
-- Testes realizados e resultados: play-test sem erros nem warnings [Animações]; validado em runtime que SwingKS/Swing2KS/Swing3KS registram no KeyframeSequenceProvider e carregam com duracao 0.97/0.98/0.97s. LIMITACAO: nao foi possivel simular o clique (VirtualInputManager bloqueado por capability RobloxScript), entao o combo em si nao foi observado rodando - requer teste manual com o mouse.
+- Testes realizados e resultados: play-test sem erros nem warnings [Anima├º├Áes]; validado em runtime que SwingKS/Swing2KS/Swing3KS registram no KeyframeSequenceProvider e carregam com duracao 0.97/0.98/0.97s. LIMITACAO: nao foi possivel simular o clique (VirtualInputManager bloqueado por capability RobloxScript), entao o combo em si nao foi observado rodando - requer teste manual com o mouse.
 - Impacto nas outras tarefas: nenhuma reserva conflitante; nao altera dash/slide. Pendencia removida e reserva liberada nesta sequencia.
 
 
@@ -267,17 +277,17 @@ Somente trabalho concluído. Preserve o ID da pendência. Entradas novas no iní
 - Studio / experiencia: projeto cyberpunk (placeId 128162258382604); id: 9188914c-0f3d-4cf1-999a-f072cc01de97
 - Scripts e objetos afetados: ReplicatedStorage.AnimationConfig (Config.Animations.Block.Source); ReplicatedStorage.GameAnimations (DEFESA clonado da Rig + DEFESA_KS gerado).
 - Interfaces alteradas: nenhuma.
-- Testes realizados e resultados: play-test (user_keyboard_input) com F: hold ativa (IsBlocking=true, WalkSpeed=8, Block playing DEFESA_KS len=2.00); release desativa; console sem erros nem warnings. LIMITACAO: amostragem a 0.1s pode perder nuances rapidas da animacao original; se ficar "robótica", posso aumentar a resolucao (ex.: 0.05s) ou ajustar.
+- Testes realizados e resultados: play-test (user_keyboard_input) com F: hold ativa (IsBlocking=true, WalkSpeed=8, Block playing DEFESA_KS len=2.00); release desativa; console sem erros nem warnings. LIMITACAO: amostragem a 0.1s pode perder nuances rapidas da animacao original; se ficar "rob├│tica", posso aumentar a resolucao (ex.: 0.05s) ou ajustar.
 - Impacto nas outras tarefas: nenhuma reserva conflitante. Reserva liberada.
 
 ## Modelo de entrada
-- ID: T-<identificador único>
-- Concluído em: <data e hora com fuso>
+- ID: T-<identificador ├║nico>
+- Conclu├¡do em: <data e hora com fuso>
 - IA / pessoa: <nome fixo>
-- Resumo: <resultado e decisões relevantes>
-- Studio / experiência: <identificação>
+- Resumo: <resultado e decis├Áes relevantes>
+- Studio / experi├¬ncia: <identifica├º├úo>
 - Scripts e objetos afetados: <caminhos completos no Explorer>
-- Interfaces alteradas: <eventos, funções, parâmetros; ou nenhuma>
-- Testes realizados e resultados: <evidências; explicite o que não foi testado>
-- Impacto nas outras tarefas: <dependências ou nenhuma>
+- Interfaces alteradas: <eventos, fun├º├Áes, par├ómetros; ou nenhuma>
+- Testes realizados e resultados: <evid├¬ncias; explicite o que n├úo foi testado>
+- Impacto nas outras tarefas: <depend├¬ncias ou nenhuma>
 
